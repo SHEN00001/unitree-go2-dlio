@@ -1,0 +1,4 @@
+source;share/hesai_lidar/local_setup.bash
+source;share/hesai_lidar/local_setup.dsv
+source;share/hesai_lidar/local_setup.sh
+source;share/hesai_lidar/local_setup.zsh

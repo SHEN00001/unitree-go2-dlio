@@ -1,0 +1,16 @@
+{
+  "package_name": "unitree_hg",
+  "non_idl_tuples": [
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/BmsCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/BmsState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/HandCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/HandState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/IMUState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/LowCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/LowState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MainBoardState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MotorCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MotorState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/PressSensorState.msg"
+  ]
+}

@@ -1,0 +1,690 @@
+[35m[1mConsolidate compiler generated dependencies of target rmw_cyclonedds_cpp[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rmw_cyclonedds_cpp.dir/src/serdata.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rmw_cyclonedds_cpp.dir/src/rmw_node.cpp.o[0m
+In file included from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:37[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/get_env.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning rcutils/get_env.h has been deprecated, please include rcutils/env.h instead [[01;35m[K-Wcpp[m[K]
+   25 | #[01;35m[Kwarning[m[K rcutils/get_env.h has been deprecated, please include rcutils/env.h instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:[m[K In function ‘[01m[Kddsi_serdata* serdata_rmw_to_topicless(const ddsi_serdata*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:239:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class serdata_rmw[m[K’ has no member named ‘[01m[Ktopic[m[K’
+  239 |   auto d1 = new serdata_rmw(d->[01;31m[Ktopic[m[K, SDK_KEY);
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:[m[K In function ‘[01m[Kbool serdata_rmw_to_sample(const ddsi_serdata*, void*, void**, void*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:274:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class serdata_rmw[m[K’ has no member named ‘[01m[Ktopic[m[K’
+  274 |     const struct sertopic_rmw * topic = static_cast<const struct sertopic_rmw *>(d->[01;31m[Ktopic[m[K);
+      |                                                                                     [01;31m[K^~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:[m[K At global scope:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:408:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const nn_rdata*, std::size_t)[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const nn_rdata*, long unsigned int)[m[K’} to ‘[01m[Kddsi_serdata_from_ser_t[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertype*, ddsi_serdata_kind, const nn_rdata*, long unsigned int)[m[K’} [[01;31m[K-fpermissive[m[K]
+  408 |   [01;31m[Kserdata_rmw_from_ser[m[K,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const nn_rdata*, std::size_t) {aka ddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const nn_rdata*, long unsigned int)}[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:410:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, ddsrt_msg_iovlen_t, const ddsrt_iovec_t*, std::size_t)[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, long unsigned int, const iovec*, long unsigned int)[m[K’} to ‘[01m[Kddsi_serdata_from_ser_iov_t[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertype*, ddsi_serdata_kind, long unsigned int, const iovec*, long unsigned int)[m[K’} [[01;31m[K-fpermissive[m[K]
+  410 |   [01;31m[Kserdata_rmw_from_ser_iov[m[K,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, ddsrt_msg_iovlen_t, const ddsrt_iovec_t*, std::size_t) {aka ddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, long unsigned int, const iovec*, long unsigned int)}[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:412:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, const ddsi_keyhash*)[m[K’ to ‘[01m[Kddsi_serdata_from_keyhash_t[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertype*, const ddsi_keyhash*)[m[K’} [[01;31m[K-fpermissive[m[K]
+  412 |   [01;31m[Kserdata_rmw_from_keyhash[m[K,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[Kddsi_serdata* (*)(const ddsi_sertopic*, const ddsi_keyhash*)[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:413:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const void*)[m[K’ to ‘[01m[Kddsi_serdata_from_sample_t[m[K’ {aka ‘[01m[Kddsi_serdata* (*)(const ddsi_sertype*, ddsi_serdata_kind, const void*)[m[K’} [[01;31m[K-fpermissive[m[K]
+  413 |   [01;31m[Kserdata_rmw_from_sample[m[K,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[Kddsi_serdata* (*)(const ddsi_sertopic*, ddsi_serdata_kind, const void*)[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:419:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kbool (*)(const ddsi_sertopic*, const ddsi_serdata*, void*, void**, void*)[m[K’ to ‘[01m[Kddsi_serdata_untyped_to_sample_t[m[K’ {aka ‘[01m[Kbool (*)(const ddsi_sertype*, const ddsi_serdata*, void*, void**, void*)[m[K’} [[01;31m[K-fpermissive[m[K]
+  419 |   [01;31m[Kserdata_rmw_topicless_to_sample[m[K,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[Kbool (*)(const ddsi_sertopic*, const ddsi_serdata*, void*, void**, void*)[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:422:5:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::size_t (*)(const ddsi_sertopic*, const ddsi_serdata*, char*, std::size_t)[m[K’ {aka ‘[01m[Klong unsigned int (*)(const ddsi_sertopic*, const ddsi_serdata*, char*, long unsigned int)[m[K’} to ‘[01m[Kddsi_serdata_print_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(const ddsi_sertype*, const ddsi_serdata*, char*, long unsigned int)[m[K’} [[01;31m[K-fpermissive[m[K]
+  422 |   , [01;31m[Kserdata_rmw_print[m[K
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [01;31m[K|[m[K
+      |     [01;31m[Kstd::size_t (*)(const ddsi_sertopic*, const ddsi_serdata*, char*, std::size_t) {aka long unsigned int (*)(const ddsi_sertopic*, const ddsi_serdata*, char*, long unsigned int)}[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:427:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kddsi_serdata_ops::get_sample_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  427 | [01;35m[K}[m[K;
+      | [01;35m[K^[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:427:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kddsi_serdata_ops::from_iox_buffer[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:[m[K In function ‘[01m[Ksertopic_rmw* create_sertopic(const char*, const char*, void*, bool, std::unique_ptr<rmw_cyclonedds_cpp::StructValueType>)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:560:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ddsi_serdata_ops*[m[K’ to ‘[01m[Kconst ddsi_sertopic_serdata_ops*[m[K’
+  560 |     type_name.c_str(), &sertopic_rmw_ops, [01;31m[K&serdata_rmw_ops[m[K, true);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst ddsi_serdata_ops*[m[K
+In file included from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.hpp:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:14[m[K:
+[01m[K/external/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h:76:190:[m[K [01;36m[Knote: [m[K  initializing argument 5 of ‘[01m[Kvoid ddsi_sertopic_init(ddsi_sertopic*, const char*, const char*, const ddsi_sertopic_ops*, const ddsi_sertopic_serdata_ops*, bool)[m[K’
+   76 | DDS_EXPORT void ddsi_sertopic_init (struct ddsi_sertopic *tp, const char *name, const char *type_name, const struct ddsi_sertopic_ops *sertopic_ops, [01;36m[Kconst struct ddsi_sertopic_serdata_ops *serdata_ops[m[K, bool topickind_no_key);
+      |                                                                                                                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:[m[K In constructor ‘[01m[Kserdata_rmw::serdata_rmw(const ddsi_sertopic*, ddsi_serdata_kind)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:603:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ddsi_sertopic*[m[K’ to ‘[01m[Kconst ddsi_sertype*[m[K’
+  603 |   ddsi_serdata_init(this, [01;31m[Ktopic[m[K, kind);
+      |                           [01;31m[K^~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kconst ddsi_sertopic*[m[K
+In file included from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.hpp:22[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/serdata.cpp:14[m[K:
+[01m[K/external/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h:206:87:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid ddsi_serdata_init(ddsi_serdata*, const ddsi_sertype*, ddsi_serdata_kind)[m[K’
+  206 | DDS_EXPORT void ddsi_serdata_init (struct ddsi_serdata *d, [01;36m[Kconst struct ddsi_sertype *type[m[K, enum ddsi_serdata_kind kind);
+      |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:250:8:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Krmw_context_impl_t[m[K’ after ‘[01m[Kstruct[m[K’
+  250 | struct [01;31m[Krmw_context_impl_t[m[K
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:35:[m[K [01;36m[Knote: [m[K‘[01m[Krmw_context_impl_t[m[K’ has a previous declaration here
+   34 | typedef struct rmw_context_impl_s [01;36m[Krmw_context_impl_t[m[K;
+      |                                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kvoid handle_ParticipantEntitiesInfo(dds_entity_t, void*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:556:23:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  556 |   while (rmw_take(impl[01;31m[K->[m[Kcommon.sub, &msg, &taken, nullptr) == RMW_RET_OK && taken) {
+      |                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:558:9:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  558 |     impl[01;31m[K->[m[Kcommon.graph_cache.update_participant_entities(msg);
+      |         [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kvoid handle_DCPSParticipant(dds_entity_t, void*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:571:27:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  571 |     if (memcmp(&gid, &impl[01;31m[K->[m[Kcommon.gid, sizeof(gid)) == 0) {
+      |                           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:574:11:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  574 |       impl[01;31m[K->[m[Kcommon.graph_cache.remove_participant(gid);
+      |           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:578:13:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  578 |         impl[01;31m[K->[m[Kcommon.graph_cache.add_participant(gid, enclave);
+      |             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kvoid handle_builtintopic_endpoint(dds_entity_t, rmw_context_impl_t*, bool)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:596:11:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  596 |       impl[01;31m[K->[m[Kcommon.graph_cache.remove_entity(gid, is_reader);
+      |           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:602:11:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  602 |       impl[01;31m[K->[m[Kcommon.graph_cache.add_entity(
+      |           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kvoid discovery_thread(rmw_context_impl_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:628:76:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  628 |   const CddsSubscription * sub = static_cast<const CddsSubscription *>(impl[01;31m[K->[m[Kcommon.sub->data);
+      |                                                                            [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:630:49:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  630 |     static_cast<const CddsGuardCondition *>(impl[01;31m[K->[m[Kcommon.listener_thread_gc->data);
+      |                                                 [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:646:10:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  646 |     {impl[01;31m[K->[m[Krd_participant, handle_DCPSParticipant},
+      |          [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:647:10:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  647 |     {impl[01;31m[K->[m[Krd_subscription, handle_DCPSSubscription},
+      |          [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:648:10:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  648 |     {impl[01;31m[K->[m[Krd_publication, handle_DCPSPublication},
+      |          [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:649:3:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{gc->CddsGuardCondition::gcondh, nullptr}, {sub->CddsSubscription::<anonymous>.CddsEntity::enth, handle_ParticipantEntitiesInfo}, {<expression error>, handle_DCPSParticipant}, {<expression error>, handle_DCPSSubscription}, {<expression error>, handle_DCPSPublication}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<std::pair<int, std::function<void(int, rmw_context_impl_s*)> > >[m[K’
+  649 |   [01;31m[K}[m[K;
+      |   [01;31m[K^[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:668:14:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  668 |   while (impl[01;31m[K->[m[Kcommon.thread_is_running.load()) {
+      |              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t discovery_thread_start(rmw_context_impl_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:686:30:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+  686 |   auto common_context = &impl[01;31m[K->[m[Kcommon;
+      |                              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K At global scope:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:929:54:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+  929 | rmw_context_impl_t::init(rmw_init_options_t * options[01;31m[K)[m[K
+      |                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1088:30:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 1088 | rmw_context_impl_t::clean_up([01;31m[K)[m[K
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1114:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 1114 | rmw_context_impl_t::fini([01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_init(const rmw_init_options_t*, rmw_context_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1162:57:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1162 |   context->impl = new (std::nothrow) rmw_context_impl_t([01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In lambda function:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1168:18:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K-Wdelete-incomplete[m[K]
+ 1168 |     [context]() {[01;35m[Kdelete context->impl[m[K;});
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1168:34:[m[K [01;35m[Kwarning: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 1168 |     [context]() {delete [01;35m[Kcontext->impl[m[K;});
+      |                         [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1168:18:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+ 1168 |     [context]() {[01;36m[Kdelete context->impl[m[K;});
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_shutdown(rmw_context_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1191:16:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1191 |   context->impl[01;31m[K->[m[Kis_shutdown = true;
+      |                [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_context_fini(rmw_context_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1207:21:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1207 |   if (!context->impl[01;31m[K->[m[Kis_shutdown) {
+      |                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1212:3:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K-Wdelete-incomplete[m[K]
+ 1212 |   [01;35m[Kdelete context->impl[m[K;
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1212:19:[m[K [01;35m[Kwarning: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 1212 |   delete [01;35m[Kcontext->impl[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1212:3:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+ 1212 |   [01;36m[Kdelete context->impl[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K At global scope:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1223:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Krmw_node_t* rmw_create_node(rmw_context_t*, const char*, const char*, std::size_t, bool)[m[K’
+ 1223 | extern "C" rmw_node_t * [01;31m[Krmw_create_node[m[K(
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/rmw.h:171:1:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krmw_node_t* rmw_create_node(rmw_context_t*, const char*, const char*)[m[K’
+  171 | [01;36m[Krmw_create_node[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_node_t* rmw_create_node(rmw_context_t*, const char*, const char*, std::size_t, bool)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1240:20:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1240 |   if (context->impl[01;31m[K->[m[Kis_shutdown) {
+      |                    [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1266:22:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1266 |   ret = context->impl[01;31m[K->[m[Kinit(&context->options);
+      |                      [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In lambda function:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1271:31:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1271 |     [context]() {context->impl[01;31m[K->[m[Kfini();});
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_node_t* rmw_create_node(rmw_context_t*, const char*, const char*, std::size_t, bool)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1300:33:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1300 |     auto common = &context->impl[01;31m[K->[m[Kcommon;
+      |                                 [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_destroy_node(rmw_node_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1341:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1341 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1354:16:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1354 |   context->impl[01;31m[K->[m[Kfini();
+      |                [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kconst rmw_guard_condition_t* rmw_node_get_graph_guard_condition(const rmw_node_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1364:29:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 1364 |   return node->context->impl[01;31m[K->[m[Kcommon.graph_guard_condition;
+      |                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_publisher_t* rmw_create_publisher(const rmw_node_t*, const rosidl_message_type_support_t*, const char*, const rmw_qos_profile_t*, const rmw_publisher_options_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2032:24:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2032 |     node->context->impl[01;31m[K->[m[Kppant, node->context->impl->dds_pub,
+      |                        [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2032:52:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2032 |     node->context->impl->ppant, node->context->impl[01;31m[K->[m[Kdds_pub,
+      |                                                    [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2051:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2051 |   auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_destroy_publisher(rmw_node_t*, rmw_publisher_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2214:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2214 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_subscription_t* rmw_create_subscription(const rmw_node_t*, const rosidl_message_type_support_t*, const char*, const rmw_qos_profile_t*, const rmw_subscription_options_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2410:24:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2410 |     node->context->impl[01;31m[K->[m[Kppant, node->context->impl->dds_sub,
+      |                        [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2410:52:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2410 |     node->context->impl->ppant, node->context->impl[01;31m[K->[m[Kdds_sub,
+      |                                                    [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2429:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2429 |   auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_destroy_subscription(rmw_node_t*, rmw_subscription_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2530:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 2530 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Kvoid get_unique_csid(const rmw_node_t*, client_service_id_t&)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3774:43:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 3774 |     std::lock_guard<std::mutex> guard(impl[01;31m[K->[m[Kinitialization_mutex);
+      |                                           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3775:15:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 3775 |     x = ++impl[01;31m[K->[m[Kclient_service_id;
+      |               [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3781:23:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct rmw_context_impl_s[m[K’
+ 3781 |   memcpy(id.data, impl[01;31m[K->[m[Kppant_gid.data, 12);
+      |                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct rmw_context_impl_s[m[K’
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_init_cs(CddsCS*, const rmw_node_t*, const rosidl_service_type_support_t*, const char*, const rmw_qos_profile_t*, bool)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3867:46:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 3867 |   pubtopic = create_topic(node->context->impl[01;31m[K->[m[Kppant, pub_st, &pub_stact);
+      |                                              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3876:46:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 3876 |   subtopic = create_topic(node->context->impl[01;31m[K->[m[Kppant, sub_st);
+      |                                              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3900:57:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 3900 |   if ((pub->enth = dds_create_writer(node->context->impl[01;31m[K->[m[Kdds_pub, pubtopic, qos, nullptr)) < 0) {
+      |                                                         [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3906:57:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 3906 |   if ((sub->enth = dds_create_reader(node->context->impl[01;31m[K->[m[Kdds_sub, subtopic, qos, nullptr)) < 0) {
+      |                                                         [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t destroy_client(const rmw_node_t*, rmw_client_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:3969:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 3969 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_client_t* rmw_create_client(const rmw_node_t*, const rosidl_service_type_support_t*, const char*, const rmw_qos_profile_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4020:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4020 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t destroy_service(const rmw_node_t*, rmw_service_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4071:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4071 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_service_t* rmw_create_service(const rmw_node_t*, const rosidl_service_type_support_t*, const char*, const rmw_qos_profile_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4120:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4120 |     auto common = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_node_names(const rmw_node_t*, rcutils_string_array_t*, rcutils_string_array_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4176:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4176 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_node_names_with_enclaves(const rmw_node_t*, rcutils_string_array_t*, rcutils_string_array_t*, rcutils_string_array_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4207:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4207 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_topic_names_and_types(const rmw_node_t*, rcutils_allocator_t*, bool, rmw_names_and_types_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4239:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4239 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_service_names_and_types(const rmw_node_t*, rcutils_allocator_t*, rmw_names_and_types_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4264:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4264 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_service_server_is_available(const rmw_node_t*, const rmw_client_t*, bool*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4345:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4345 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_count_publishers(const rmw_node_t*, const char*, std::size_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4393:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4393 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_count_subscribers(const rmw_node_t*, const char*, std::size_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4421:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4421 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t get_topic_names_and_types_by_node(const rmw_node_t*, rcutils_allocator_t*, const char*, const char*, DemangleFunction, DemangleFunction, bool, GetNamesAndTypesByNodeFunction, rmw_names_and_types_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4479:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4479 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_publishers_info_by_topic(const rmw_node_t*, rcutils_allocator_t*, const char*, bool, rmw_topic_endpoint_info_array_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4616:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4616 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K In function ‘[01m[Krmw_ret_t rmw_get_subscriptions_info_by_topic(const rmw_node_t*, rcutils_allocator_t*, const char*, bool, rmw_topic_endpoint_info_array_t*)[m[K’:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:4650:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+ 4650 |   auto common_context = &node->context->impl[01;31m[K->[m[Kcommon;
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/allocators.h:23[m[K,
+                 from [01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/rmw/rmw/init.h:34:16:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Krmw_context_impl_t[m[K’ {aka ‘[01m[Kstruct rmw_context_impl_s[m[K’}
+   34 | typedef struct [01;36m[Krmw_context_impl_s[m[K rmw_context_impl_t;
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rmw_cyclonedds_cpp.dir/build.make:90: CMakeFiles/rmw_cyclonedds_cpp.dir/src/serdata.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:[m[K At global scope:
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:2327:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Krmw_subscription_t* create_subscription(dds_entity_t, dds_entity_t, const rosidl_message_type_support_t*, const char*, const rmw_qos_profile_t*, const rmw_subscription_options_t*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ 2327 | static rmw_subscription_t * [01;35m[Kcreate_subscription[m[K(
+      |                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:1954:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Krmw_publisher_t* create_publisher(dds_entity_t, dds_entity_t, const rosidl_message_type_support_t*, const char*, const rmw_qos_profile_t*, const rmw_publisher_options_t*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ 1954 | static rmw_publisher_t * [01;35m[Kcreate_publisher[m[K(
+      |                          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:883:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Krmw_ret_t configure_qos_for_security(dds_qos_t*, const rmw_security_options_t*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  883 | rmw_ret_t [01;35m[Kconfigure_qos_for_security[m[K(
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:798:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid check_destroy_domain(dds_domainid_t)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  798 | [01;35m[Kcheck_destroy_domain[m[K(dds_domainid_t domain_id)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:736:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool check_create_domain(dds_domainid_t, rmw_localhost_only_t)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  736 | static bool [01;35m[Kcheck_create_domain[m[K(dds_domainid_t did, rmw_localhost_only_t localhost_only_option)
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:712:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krmw_ret_t discovery_thread_stop(rmw_dds_common::Context&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  712 | static rmw_ret_t [01;35m[Kdiscovery_thread_stop[m[K(rmw_dds_common::Context & common_context)
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/external/src/unitree_ros2/cyclonedds_ws/src/ros2/rmw_cyclonedds/rmw_cyclonedds_cpp/src/rmw_node.cpp:684:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krmw_ret_t discovery_thread_start(rmw_context_impl_t*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  684 | static rmw_ret_t [01;35m[Kdiscovery_thread_start[m[K(rmw_context_impl_t * impl)
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rmw_cyclonedds_cpp.dir/build.make:76: CMakeFiles/rmw_cyclonedds_cpp.dir/src/rmw_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rmw_cyclonedds_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

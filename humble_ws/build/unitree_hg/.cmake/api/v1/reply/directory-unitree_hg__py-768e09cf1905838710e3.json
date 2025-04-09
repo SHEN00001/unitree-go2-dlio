@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "unitree_hg__py",
+		"source" : "/external/build/unitree_hg/unitree_hg__py"
+	}
+}

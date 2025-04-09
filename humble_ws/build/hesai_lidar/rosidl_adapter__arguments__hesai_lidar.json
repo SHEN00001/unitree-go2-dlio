@@ -1,0 +1,7 @@
+{
+  "package_name": "hesai_lidar",
+  "non_idl_tuples": [
+    "/external/src/HesaiLidar_ROS2_techshare:msg/PandarPacket.msg",
+    "/external/src/HesaiLidar_ROS2_techshare:msg/PandarScan.msg"
+  ]
+}

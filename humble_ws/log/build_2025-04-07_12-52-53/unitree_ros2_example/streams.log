@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/external/build/unitree_ros2_example': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /external/src/unitree_ros2/example/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/external/install/unitree_ros2_example
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.232s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.363s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.513s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.951s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.022s] -- Found unitree_go: 0.0.0 (/external/install/unitree_go/share/unitree_go/cmake)
+[1.102s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.114s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.133s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.283s] -- Found unitree_hg: 0.0.0 (/external/install/unitree_hg/share/unitree_hg/cmake)
+[1.303s] -- Found unitree_api: 0.0.0 (/external/install/unitree_api/share/unitree_api/cmake)
+[1.326s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.409s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.416s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.656s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.748s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.771s] -- Looking for pthread.h
+[1.907s] -- Looking for pthread.h - found
+[1.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.031s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.032s] -- Found Threads: TRUE  
+[2.107s] -- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.229s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.428s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.436s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.438s] -- Configured cppcheck include dirs: /external/src/unitree_ros2/example/src/include;/external/src/unitree_ros2/example/src/include/common;/external/src/unitree_ros2/example/src/include/nlohmann
+[2.438s] -- Configured cppcheck exclude dirs and/or files: 
+[2.444s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.444s] -- Configured cpplint exclude dirs and/or files: 
+[2.446s] -- Added test 'lint_cmake' to check CMake code style
+[2.453s] -- Added test 'uncrustify' to check C / C++ code style
+[2.453s] -- Configured uncrustify additional arguments: 
+[2.454s] -- Added test 'xmllint' to check XML markup files
+[2.457s] -- Configuring done
+[2.551s] -- Generating done
+[2.580s] -- Build files have been written to: /external/build/unitree_ros2_example

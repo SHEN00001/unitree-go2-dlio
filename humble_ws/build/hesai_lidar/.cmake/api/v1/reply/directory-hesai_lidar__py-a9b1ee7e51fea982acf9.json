@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hesai_lidar__py",
+		"source" : "/external/build/hesai_lidar/hesai_lidar__py"
+	}
+}

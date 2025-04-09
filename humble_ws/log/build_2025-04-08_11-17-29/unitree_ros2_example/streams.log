@@ -1,0 +1,94 @@
+[0.022s] Invoking command in '/external/build/unitree_ros2_example': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/unitree_ros2_example -- -j8 -l8
+[0.067s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.321s] -- Found unitree_go: 0.0.0 (/external/install/unitree_go/share/unitree_go/cmake)
+[0.364s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.377s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found unitree_hg: 0.0.0 (/external/install/unitree_hg/share/unitree_hg/cmake)
+[0.507s] -- Found unitree_api: 0.0.0 (/external/install/unitree_api/share/unitree_api/cmake)
+[0.524s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.564s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.566s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.810s] -- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.883s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.032s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.040s] -- Configured cppcheck include dirs: /external/src/unitree_ros2/example/src/include;/external/src/unitree_ros2/example/src/include/common;/external/src/unitree_ros2/example/src/include/nlohmann
+[1.040s] -- Configured cppcheck exclude dirs and/or files: 
+[1.047s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.047s] -- Configured cpplint exclude dirs and/or files: 
+[1.051s] -- Added test 'lint_cmake' to check CMake code style
+[1.061s] -- Added test 'uncrustify' to check C / C++ code style
+[1.062s] -- Configured uncrustify additional arguments: 
+[1.063s] -- Added test 'xmllint' to check XML markup files
+[1.074s] -- Configuring done
+[1.179s] -- Generating done
+[1.211s] -- Build files have been written to: /external/build/unitree_ros2_example
+[1.301s] [35m[1mConsolidate compiler generated dependencies of target low_level_ctrl[0m
+[1.313s] [35m[1mConsolidate compiler generated dependencies of target low_level_ctrl_hg[0m
+[1.337s] [35m[1mConsolidate compiler generated dependencies of target g1_low_level_example[0m
+[1.355s] [35m[1mConsolidate compiler generated dependencies of target read_low_state_hg[0m
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target read_motion_state[0m
+[1.367s] [35m[1mConsolidate compiler generated dependencies of target read_low_state[0m
+[1.368s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[1.387s] [35m[1mConsolidate compiler generated dependencies of target read_wireless_controller[0m
+[1.388s] [  5%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/low_level_ctrl.cpp.o[0m
+[1.414s] [ 10%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[1.415s] [ 15%] [32mBuilding CXX object CMakeFiles/read_low_state_hg.dir/src/read_low_state_hg.cpp.o[0m
+[1.428s] [ 20%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o[0m
+[1.431s] [ 25%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[1.451s] [ 30%] [32mBuilding CXX object CMakeFiles/read_motion_state.dir/src/read_motion_state.cpp.o[0m
+[1.462s] [ 35%] [32mBuilding CXX object CMakeFiles/read_low_state.dir/src/read_low_state.cpp.o[0m
+[1.482s] [ 40%] [32mBuilding CXX object CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o[0m
+[17.367s] [ 45%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/common/motor_crc.cpp.o[0m
+[30.043s] [ 50%] [32m[1mLinking CXX executable low_level_ctrl[0m
+[31.235s] [ 50%] Built target low_level_ctrl
+[31.300s] [ 55%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/common/motor_crc_hg.cpp.o[0m
+[33.496s] [ 60%] [32m[1mLinking CXX executable read_motion_state[0m
+[34.080s] [ 65%] [32m[1mLinking CXX executable read_low_state[0m
+[34.746s] [ 70%] [32m[1mLinking CXX executable read_wireless_controller[0m
+[35.340s] [ 70%] Built target read_motion_state
+[35.431s] [ 75%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o[0m
+[35.790s] [ 80%] [32m[1mLinking CXX executable read_low_state_hg[0m
+[36.030s] [ 80%] Built target read_low_state
+[36.088s] [ 85%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[36.402s] [ 85%] Built target read_wireless_controller
+[37.438s] [ 85%] Built target read_low_state_hg
+[41.948s] [ 90%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[42.623s] [ 95%] [32m[1mLinking CXX executable sport_mode_ctrl[0m
+[42.898s] [ 95%] Built target low_level_ctrl_hg
+[43.667s] [ 95%] Built target sport_mode_ctrl
+[44.400s] [100%] [32m[1mLinking CXX executable g1_low_level_example[0m
+[45.251s] [100%] Built target g1_low_level_example
+[45.274s] Invoked command in '/external/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/unitree_ros2_example -- -j8 -l8
+[45.277s] Invoking command in '/external/build/unitree_ros2_example': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/unitree_ros2_example
+[45.290s] -- Install configuration: ""
+[45.291s] -- Execute custom install script
+[45.291s] -- Up-to-date symlink: /external/install/unitree_ros2_example//low_level_ctrl
+[45.291s] -- Up-to-date symlink: /external/install/unitree_ros2_example//low_level_ctrl_hg
+[45.292s] -- Up-to-date symlink: /external/install/unitree_ros2_example//g1_low_level_example
+[45.292s] -- Up-to-date symlink: /external/install/unitree_ros2_example//read_low_state
+[45.292s] -- Up-to-date symlink: /external/install/unitree_ros2_example//read_low_state_hg
+[45.292s] -- Up-to-date symlink: /external/install/unitree_ros2_example//read_motion_state
+[45.292s] -- Up-to-date symlink: /external/install/unitree_ros2_example//read_wireless_controller
+[45.293s] -- Up-to-date symlink: /external/install/unitree_ros2_example//sport_mode_ctrl
+[45.293s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[45.293s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[45.293s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[45.294s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[45.294s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[45.294s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[45.294s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[45.295s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[45.295s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[45.295s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[45.295s] -- Symlinking: /external/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[45.310s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[45.311s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[45.311s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[45.311s] -- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[45.315s] Invoked command in '/external/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/unitree_ros2_example

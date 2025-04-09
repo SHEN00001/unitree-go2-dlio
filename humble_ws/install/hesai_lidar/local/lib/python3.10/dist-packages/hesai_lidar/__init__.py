@@ -1,0 +1,1 @@
+/external/build/hesai_lidar/rosidl_generator_py/hesai_lidar/__init__.py

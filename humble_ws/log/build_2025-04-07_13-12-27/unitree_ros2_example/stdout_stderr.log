@@ -1,0 +1,33 @@
+[ 15%] Built target low_level_ctrl
+[ 30%] Built target low_level_ctrl_hg
+[ 40%] Built target read_low_state_hg
+[ 65%] Built target g1_low_level_example
+[ 65%] Built target read_low_state
+[ 75%] Built target read_motion_state
+[ 85%] Built target read_wireless_controller
+[100%] Built target sport_mode_ctrl
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /external/install/unitree_ros2_example//low_level_ctrl
+-- Up-to-date symlink: /external/install/unitree_ros2_example//low_level_ctrl_hg
+-- Up-to-date symlink: /external/install/unitree_ros2_example//g1_low_level_example
+-- Up-to-date symlink: /external/install/unitree_ros2_example//read_low_state
+-- Up-to-date symlink: /external/install/unitree_ros2_example//read_low_state_hg
+-- Up-to-date symlink: /external/install/unitree_ros2_example//read_motion_state
+-- Up-to-date symlink: /external/install/unitree_ros2_example//read_wireless_controller
+-- Up-to-date symlink: /external/install/unitree_ros2_example//sport_mode_ctrl
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+-- Symlinking: /external/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+-- Up-to-date symlink: /external/install/unitree_ros2_example/share/unitree_ros2_example/package.xml

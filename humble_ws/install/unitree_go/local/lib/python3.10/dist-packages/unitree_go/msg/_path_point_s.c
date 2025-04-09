@@ -1,0 +1,1 @@
+/external/build/unitree_go/rosidl_generator_py/unitree_go/msg/_path_point_s.c

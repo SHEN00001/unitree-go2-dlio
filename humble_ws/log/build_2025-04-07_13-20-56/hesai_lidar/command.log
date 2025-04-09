@@ -1,0 +1,4 @@
+Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+Invoked command in '/external/build/hesai_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/hesai_lidar
+Invoked command in '/external/build/hesai_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/hesai_lidar

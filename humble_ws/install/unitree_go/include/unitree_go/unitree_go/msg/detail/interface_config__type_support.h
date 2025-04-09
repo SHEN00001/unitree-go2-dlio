@@ -1,0 +1,1 @@
+/external/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/interface_config__type_support.h

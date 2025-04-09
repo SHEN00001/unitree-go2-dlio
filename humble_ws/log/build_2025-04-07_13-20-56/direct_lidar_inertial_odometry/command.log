@@ -1,0 +1,4 @@
+Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/direct_lidar_inertial_odometry -- -j8 -l8
+Invoked command in '/external/build/direct_lidar_inertial_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/direct_lidar_inertial_odometry -- -j8 -l8
+Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/direct_lidar_inertial_odometry
+Invoked command in '/external/build/direct_lidar_inertial_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/direct_lidar_inertial_odometry

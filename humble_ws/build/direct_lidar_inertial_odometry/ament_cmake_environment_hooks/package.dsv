@@ -1,0 +1,4 @@
+source;share/direct_lidar_inertial_odometry/local_setup.bash
+source;share/direct_lidar_inertial_odometry/local_setup.dsv
+source;share/direct_lidar_inertial_odometry/local_setup.sh
+source;share/direct_lidar_inertial_odometry/local_setup.zsh

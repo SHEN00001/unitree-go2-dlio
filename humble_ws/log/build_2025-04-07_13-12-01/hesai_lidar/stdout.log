@@ -1,0 +1,35 @@
+[  2%] Built target hesai_lidar__cpp
+[ 12%] Built target hesai_lidar__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_fastrtps_c[0m
+[ 12%] Built target ament_cmake_python_symlink_hesai_lidar
+[ 21%] Built target hesai_lidar__rosidl_typesupport_c
+[ 31%] Built target hesai_lidar__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target hesai_lidar__rosidl_typesupport_introspection_c
+[ 51%] Built target hesai_lidar__rosidl_typesupport_cpp
+[ 60%] Built target hesai_lidar__rosidl_typesupport_introspection_cpp
+[ 70%] Built target hesai_lidar__rosidl_typesupport_fastrtps_c
+[ 73%] [32mBuilding CXX object CMakeFiles/hesai_lidar_node.dir/src/main_ros2.cc.o[0m
+[ 73%] Built target hesai_lidar
+[ 75%] Built target hesai_lidar__py
+[ 78%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_generator_py.dir/rosidl_generator_py/hesai_lidar/msg/_pandar_scan_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_generator_py.dir/rosidl_generator_py/hesai_lidar/msg/_pandar_packet_s.c.o[0m
+running egg_info
+writing hesai_lidar.egg-info/PKG-INFO
+writing dependency_links to hesai_lidar.egg-info/dependency_links.txt
+writing top-level names to hesai_lidar.egg-info/top_level.txt
+reading manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+writing manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/hesai_lidar/libhesai_lidar__rosidl_generator_py.so[0m
+[ 82%] Built target ament_cmake_python_build_hesai_lidar_egg
+[ 82%] Built target hesai_lidar__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hesai_lidar/_hesai_lidar_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hesai_lidar/_hesai_lidar_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hesai_lidar/_hesai_lidar_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/hesai_lidar/hesai_lidar_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/hesai_lidar/hesai_lidar_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/hesai_lidar/hesai_lidar_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] Built target hesai_lidar__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target hesai_lidar__rosidl_typesupport_c__pyext
+[ 97%] Built target hesai_lidar__rosidl_typesupport_introspection_c__pyext

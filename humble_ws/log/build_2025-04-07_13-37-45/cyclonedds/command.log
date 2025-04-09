@@ -1,0 +1,6 @@
+Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2 -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/external/install/cyclonedds
+Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2 -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/external/install/cyclonedds
+Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds
+Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds

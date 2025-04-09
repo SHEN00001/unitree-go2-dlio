@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hesai_lidar/msg/PandarPacket.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module hesai_lidar {
+  module msg {
+    @verbatim (language="comment", text=
+      "field  size(byte)" "\n"
+      "SOB   2" "\n"
+      "angle  2" "\n"
+      "measure 5" "\n"
+      "block  SOB + angle + measure * 40" "\n"
+      "timestamp 4" "\n"
+      "factory 2" "\n"
+      "reserve 8" "\n"
+      "rpm  2" "\n"
+      "tail  timestamp + factory + reserve + rpm" "\n"
+      "packet block * 6 + tail")
+    struct PandarPacket {
+      builtin_interfaces::msg::Time stamp;
+
+      sequence<uint8> data;
+
+      uint32 size;
+    };
+  };
+};

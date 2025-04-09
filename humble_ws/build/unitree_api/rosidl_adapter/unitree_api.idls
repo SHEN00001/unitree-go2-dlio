@@ -1,0 +1,8 @@
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl
+/external/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl

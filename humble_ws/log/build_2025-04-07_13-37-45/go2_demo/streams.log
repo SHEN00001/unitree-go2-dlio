@@ -1,0 +1,23 @@
+[0.019s] Invoking command in '/external/build/go2_demo': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/go2_demo -- -j8 -l8
+[0.113s] [100%] Built target imu_publisher
+[0.138s] Invoked command in '/external/build/go2_demo' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/go2_demo -- -j8 -l8
+[0.139s] Invoking command in '/external/build/go2_demo': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/go2_demo
+[0.150s] -- Install configuration: ""
+[0.150s] -- Execute custom install script
+[0.151s] -- Up-to-date symlink: /external/install/go2_demo/lib/go2_demo/imu_publisher
+[0.151s] -- Up-to-date symlink: /external/install/go2_demo/share/ament_index/resource_index/package_run_dependencies/go2_demo
+[0.151s] -- Up-to-date symlink: /external/install/go2_demo/share/ament_index/resource_index/parent_prefix_path/go2_demo
+[0.151s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.sh
+[0.151s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/environment/path.sh
+[0.152s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/environment/path.dsv
+[0.153s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/local_setup.bash
+[0.153s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/local_setup.sh
+[0.153s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/local_setup.zsh
+[0.153s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/local_setup.dsv
+[0.153s] -- Symlinking: /external/install/go2_demo/share/go2_demo/package.dsv
+[0.172s] -- Up-to-date symlink: /external/install/go2_demo/share/ament_index/resource_index/packages/go2_demo
+[0.172s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig.cmake
+[0.172s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig-version.cmake
+[0.172s] -- Up-to-date symlink: /external/install/go2_demo/share/go2_demo/package.xml
+[0.178s] Invoked command in '/external/build/go2_demo' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/go2_demo

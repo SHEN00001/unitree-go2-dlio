@@ -1,0 +1,588 @@
+The system is: Linux - 5.10.104-tegra - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/external/build/cyclonedds/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5c60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5c60.dir/build.make CMakeFiles/cmTC_b5c60.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b5c60.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccugdJpG.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o /tmp/ccugdJpG.s
+GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b5c60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c60.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -o cmTC_b5c60 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5c60' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b5c60.'
+ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ3abKS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b5c60 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5c60' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b5c60.'
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5c60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5c60.dir/build.make CMakeFiles/cmTC_b5c60.dir/build]
+  ignore line: [gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b5c60.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccugdJpG.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o /tmp/ccugdJpG.s]
+  ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b5c60]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c60.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -o cmTC_b5c60 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5c60' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b5c60.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ3abKS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b5c60 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQ3abKS.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b5c60] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_b5c60.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd452/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd452.dir/build.make CMakeFiles/cmTC_cd452.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd452.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_cd452.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cd452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd452.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cd452.dir/CheckIncludeFile.c.o -o cmTC_cd452 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43197/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43197.dir/build.make CMakeFiles/cmTC_43197.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43197.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_43197.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43197.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_43197.dir/CheckIncludeFile.c.o -o cmTC_43197 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1358/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1358.dir/build.make CMakeFiles/cmTC_d1358.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1358.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_d1358.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1358.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d1358.dir/CheckIncludeFile.c.o -o cmTC_d1358 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_530ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_530ef.dir/build.make CMakeFiles/cmTC_530ef.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_530ef.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_530ef.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_530ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_530ef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_530ef.dir/CheckIncludeFile.c.o -o cmTC_530ef 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72ace/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72ace.dir/build.make CMakeFiles/cmTC_72ace.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72ace.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_72ace.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72ace
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72ace.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_72ace.dir/CheckIncludeFile.c.o -o cmTC_72ace 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_571f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_571f3.dir/build.make CMakeFiles/cmTC_571f3.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_571f3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_571f3.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_571f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571f3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_571f3.dir/CheckIncludeFile.c.o -o cmTC_571f3 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a68c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a68c7.dir/build.make CMakeFiles/cmTC_a68c7.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a68c7.dir/_size.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_a68c7.dir/_size.c.o -c /external/build/cyclonedds/CMakeFiles/CheckTypeSize/_size.c
+Linking C executable cmTC_a68c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a68c7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a68c7.dir/_size.c.o -o cmTC_a68c7 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the stpcpy exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_698f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_698f1.dir/build.make CMakeFiles/cmTC_698f1.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_698f1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_698f1.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_698f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698f1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_698f1.dir/CheckSymbolExists.c.o -o cmTC_698f1 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stpcpy
+  return ((int*)(&stpcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4eabd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4eabd.dir/build.make CMakeFiles/cmTC_4eabd.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4eabd.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -std=gnu99 -o CMakeFiles/cmTC_4eabd.dir/src.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4eabd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eabd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4eabd.dir/src.c.o -o cmTC_4eabd 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a063/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a063.dir/build.make CMakeFiles/cmTC_7a063.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a063.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -o CMakeFiles/cmTC_7a063.dir/src.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:2:5: warning: ‘somefunc’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |     ^~~
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking C executable cmTC_7a063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a063.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7a063.dir/src.c.o -o cmTC_7a063 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if the gethostname exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9795d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9795d.dir/build.make CMakeFiles/cmTC_9795d.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9795d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_9795d.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9795d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9795d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9795d.dir/CheckSymbolExists.c.o -o cmTC_9795d 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aef59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aef59.dir/build.make CMakeFiles/cmTC_aef59.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aef59.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_aef59.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aef59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aef59.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aef59.dir/CheckSymbolExists.c.o -o cmTC_aef59 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dd98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5dd98.dir/build.make CMakeFiles/cmTC_5dd98.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dd98.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_5dd98.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5dd98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dd98.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5dd98.dir/CheckSymbolExists.c.o -o cmTC_5dd98 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02093/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02093.dir/build.make CMakeFiles/cmTC_02093.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02093.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_02093.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_02093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02093.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_02093.dir/CheckSymbolExists.c.o -o cmTC_02093 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname_r exist passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9554/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9554.dir/build.make CMakeFiles/cmTC_d9554.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9554.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_d9554.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9554.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d9554.dir/CheckSymbolExists.c.o -o cmTC_d9554 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname_r
+  return ((int*)(&gethostbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5763a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5763a.dir/build.make CMakeFiles/cmTC_5763a.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5763a.dir/SIZEOF_SOCKADDR_IN6.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_5763a.dir/SIZEOF_SOCKADDR_IN6.c.o -c /external/build/cyclonedds/CMakeFiles/CheckTypeSize/SIZEOF_SOCKADDR_IN6.c
+Linking C executable cmTC_5763a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5763a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5763a.dir/SIZEOF_SOCKADDR_IN6.c.o -o cmTC_5763a 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96b79/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96b79.dir/build.make CMakeFiles/cmTC_96b79.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96b79.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_96b79.dir/CheckIncludeFile.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_96b79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b79.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_96b79.dir/CheckIncludeFile.c.o -o cmTC_96b79 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba58e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba58e.dir/build.make CMakeFiles/cmTC_ba58e.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba58e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles/cmTC_ba58e.dir/src.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba58e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba58e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ba58e.dir/src.c.o -o cmTC_ba58e 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function clock_gettime exists in the c passed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa47a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa47a.dir/build.make CMakeFiles/cmTC_aa47a.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa47a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -std=gnu99 -o CMakeFiles/cmTC_aa47a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa47a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa47a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_aa47a.dir/CheckFunctionExists.c.o -o cmTC_aa47a  -lc 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+

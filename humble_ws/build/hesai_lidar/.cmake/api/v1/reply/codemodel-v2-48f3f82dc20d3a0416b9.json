@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-08fcbdc22d444e859666.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hesai_lidar__py",
+					"jsonFile" : "directory-hesai_lidar__py-a9b1ee7e51fea982acf9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/external/build/hesai_lidar/hesai_lidar__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hesai_lidar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hesai_lidar_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hesai_lidar_egg-d43eba1efb65057ebcf5.json",
+					"name" : "ament_cmake_python_build_hesai_lidar_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_hesai_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_hesai_lidar-4aead9c02047af475561.json",
+					"name" : "ament_cmake_python_symlink_hesai_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar-7a5282edd371f2b73837.json",
+					"name" : "hesai_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__cpp-69383b9fec4078db480c.json",
+					"name" : "hesai_lidar__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hesai_lidar__py::@3ff1c23459b176ca0eec",
+					"jsonFile" : "target-hesai_lidar__py-c4df55f7867ef4a38096.json",
+					"name" : "hesai_lidar__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_generator_c-8ab246c2437daa6b772e.json",
+					"name" : "hesai_lidar__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_generator_py-447eeb795248273cd86d.json",
+					"name" : "hesai_lidar__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_c-d1715a3b288daf974908.json",
+					"name" : "hesai_lidar__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_c__pyext-a19502c5be2d0cf55b15.json",
+					"name" : "hesai_lidar__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_cpp-7fda4c990599fe848a63.json",
+					"name" : "hesai_lidar__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_fastrtps_c-2cba7fa79b45016c9caf.json",
+					"name" : "hesai_lidar__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_fastrtps_c__pyext-aee35b339b9b93c10e0b.json",
+					"name" : "hesai_lidar__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_fastrtps_cpp-dc40ecf22799935d1974.json",
+					"name" : "hesai_lidar__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_introspection_c-9ddd19bc774a7c6aa260.json",
+					"name" : "hesai_lidar__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_introspection_c__pyext-20fc94a5b744ddba56ef.json",
+					"name" : "hesai_lidar__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar__rosidl_typesupport_introspection_cpp-fab9597f8963c05e4c7d.json",
+					"name" : "hesai_lidar__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar_node-001061cb2111f20775ef.json",
+					"name" : "hesai_lidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hesai_lidar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hesai_lidar_uninstall-c4245ba1e933392bddb9.json",
+					"name" : "hesai_lidar_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7337afb05ef782c5260c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/external/build/hesai_lidar",
+		"source" : "/external/src/HesaiLidar_ROS2_techshare"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

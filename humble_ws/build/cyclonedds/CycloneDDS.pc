@@ -1,0 +1,9 @@
+prefix=/external/install/cyclonedds
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: CycloneDDS
+Description: Eclipse Cyclone DDS library
+Version: 0.10.2
+Libs: -L${libdir} -lddsc
+Cflags: -I${includedir}

@@ -1,0 +1,137 @@
+[0.056s] Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+[0.295s] [  2%] Built target hesai_lidar__cpp
+[0.301s] [ 12%] Built target hesai_lidar__rosidl_generator_c
+[0.313s] [ 12%] Built target ament_cmake_python_symlink_hesai_lidar
+[0.407s] [ 21%] Built target hesai_lidar__rosidl_typesupport_fastrtps_cpp
+[0.420s] [ 31%] Built target hesai_lidar__rosidl_typesupport_introspection_c
+[0.429s] [ 41%] Built target hesai_lidar__rosidl_typesupport_c
+[0.440s] [ 51%] Built target hesai_lidar__rosidl_typesupport_cpp
+[0.454s] [ 60%] Built target hesai_lidar__rosidl_typesupport_introspection_cpp
+[0.483s] [ 70%] Built target hesai_lidar__rosidl_typesupport_fastrtps_c
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar_node[0m
+[0.658s] [ 73%] [32mBuilding CXX object CMakeFiles/hesai_lidar_node.dir/src/main_ros2.cc.o[0m
+[0.664s] [ 73%] Built target hesai_lidar
+[0.742s] [ 75%] Built target hesai_lidar__py
+[0.804s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_generator_py[0m
+[0.855s] [ 82%] Built target hesai_lidar__rosidl_generator_py
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_c__pyext[0m
+[0.915s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_introspection_c__pyext[0m
+[0.936s] [ 87%] Built target hesai_lidar__rosidl_typesupport_fastrtps_c__pyext
+[0.938s] [ 92%] Built target hesai_lidar__rosidl_typesupport_introspection_c__pyext
+[0.946s] [ 97%] Built target hesai_lidar__rosidl_typesupport_c__pyext
+[1.041s] running egg_info
+[1.043s] writing hesai_lidar.egg-info/PKG-INFO
+[1.043s] writing dependency_links to hesai_lidar.egg-info/dependency_links.txt
+[1.044s] writing top-level names to hesai_lidar.egg-info/top_level.txt
+[1.050s] reading manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[1.053s] writing manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[1.140s] [ 97%] Built target ament_cmake_python_build_hesai_lidar_egg
+[3.524s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:8[m[K:
+[3.524s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[3.524s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.525s]       |  [01;35m[K^~~~~~~[m[K
+[8.737s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:5[m[K:
+[8.738s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[8.738s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[8.738s]       |                                                                                         [01;36m[K^[m[K
+[12.661s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/src/PandarGeneralRaw/include/pandarGeneral/pandarGeneral.h:30[m[K,
+[12.661s]                  from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:30[m[K,
+[12.661s]                  from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[12.661s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/src/PandarGeneralRaw/include/pandarGeneral/pandarGeneral_internal.h:[m[K In member function ‘[01m[Kint PacketsBuffer_s::push_back(PandarPacket)[m[K’:
+[12.662s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/src/PandarGeneralRaw/include/pandarGeneral/pandarGeneral_internal.h:362:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[12.662s]   362 |       printf("buffer don't have space!,[01;35m[K%d[m[K\n", [32m[Km_iterPush - m_buffers.begin()[m[K);
+[12.662s]       |                                        [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.662s]       |                                         [01;35m[K|[m[K                [32m[K|[m[K
+[12.663s]       |                                         [01;35m[Kint[m[K              [32m[Klong int[m[K
+[12.663s]       |                                        [32m[K%ld[m[K
+[12.663s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/src/PandarGeneralRaw/include/pandarGeneral/pandarGeneral_internal.h:366:61:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::array<PandarPacket_s, 36000>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[12.663s]   366 |     ((m_iterPush < m_iterCalc) && (m_iterCalc - m_iterPush) [01;35m[K<[m[K m_buffers.size() - MAX_ITERATOR_DIFF)){
+[12.663s]       |                                                             [01;35m[K^[m[K
+[12.664s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/src/PandarGeneralRaw/include/pandarGeneral/pandarGeneral_internal.h:369:63:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::array<PandarPacket_s, 36000>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[12.664s]   369 |       ((m_iterPush < m_iterCalc) && (m_iterCalc - m_iterPush) [01;35m[K<[m[K m_buffers.size() - MAX_ITERATOR_DIFF)))
+[12.664s]       |                                                               [01;35m[K^[m[K
+[12.685s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[12.686s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[12.686s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[12.686s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[12.686s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[12.687s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[12.687s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[12.687s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[12.687s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[12.687s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[12.688s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[12.688s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[12.688s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[12.688s]                  from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:6[m[K:
+[12.688s] [01m[K/usr/include/boost/bind.hpp:[m[K At global scope:
+[12.689s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[12.689s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[12.689s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.019s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:[m[K In member function ‘[01m[Kvoid hesai_lidar::HesaiLidarClient::gpsCallback(int)[m[K’:
+[13.020s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:94:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.020s]    94 |   void gpsCallback([01;35m[Kint timestamp[m[K) {
+[13.020s]       |                    [01;35m[K~~~~^~~~~~~~~[m[K
+[13.020s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:[m[K In member function ‘[01m[Kvoid hesai_lidar::HesaiLidarClient::scanCallback(hesai_lidar::msg::PandarScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.020s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PandarGeneralSDK[m[K’ has no member named ‘[01m[KPushScanPacket[m[K’
+[13.021s]   103 |     hsdk->[01;31m[KPushScanPacket[m[K(scan);
+[13.021s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.025s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:[m[K In member function ‘[01m[Kvoid hesai_lidar::HesaiLidarClient::timer_callback()[m[K’:
+[13.026s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:146:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string&, boost::_bi::bind_t<void, boost::_mfi::mf3<void, hesai_lidar::HesaiLidarClient, boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double, std::shared_ptr<hesai_lidar::msg::PandarScan_<std::allocator<void> > > >, boost::_bi::list4<boost::_bi::value<hesai_lidar::HesaiLidarClient*>, boost::arg<1>, boost::arg<2>, boost::arg<3> > >, int, int, int&, std::string&, std::string&, std::string&, std::string&, bool&, std::string&, std::string&)[m[K’
+[13.026s]   146 |       coordinateCorrectionFlag, targetFrame, fixedFrame[01;31m[K)[m[K;
+[13.026s]       |                                                        [01;31m[K^[m[K
+[13.026s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.026s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, uint16_t, int, int, std::string, std::string, std::string, bool)[m[K’
+[13.027s]    67 |   [01;36m[KPandarGeneralSDK[m[K(std::string pcap_path, \
+[13.027s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.027s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 12 provided
+[13.027s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.027s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, uint16_t, uint16_t, uint16_t, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, boost::function<void(HS_Object3D_Object_List*)>, boost::function<void(double)>, uint16_t, int, int, std::string, std::string, std::string, std::string, std::string, bool)[m[K’
+[13.028s]    49 |   [01;36m[KPandarGeneralSDK[m[K(
+[13.028s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.028s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:49:3:[m[K [01;36m[Knote: [m[K  candidate expects 16 arguments, 12 provided
+[13.028s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(const PandarGeneralSDK&)[m[K’
+[13.028s]    35 | class [01;36m[KPandarGeneralSDK[m[K {
+[13.029s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.029s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 12 provided
+[13.030s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:175:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(const char [1], boost::_bi::bind_t<void, boost::_mfi::mf3<void, hesai_lidar::HesaiLidarClient, boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double, std::shared_ptr<hesai_lidar::msg::PandarScan_<std::allocator<void> > > >, boost::_bi::list4<boost::_bi::value<hesai_lidar::HesaiLidarClient*>, boost::arg<1>, boost::arg<2>, boost::arg<3> > >, int, int, int&, std::string&, std::string&, std::string&, std::string&, bool&, std::string&, std::string&)[m[K’
+[13.030s]   175 |       lidarCorrectionFile, coordinateCorrectionFlag, targetFrame, fixedFrame[01;31m[K)[m[K;
+[13.030s]       |                                                                             [01;31m[K^[m[K
+[13.031s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.031s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, uint16_t, int, int, std::string, std::string, std::string, bool)[m[K’
+[13.031s]    67 |   [01;36m[KPandarGeneralSDK[m[K(std::string pcap_path, \
+[13.031s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.031s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 12 provided
+[13.032s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.032s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, uint16_t, uint16_t, uint16_t, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, boost::function<void(HS_Object3D_Object_List*)>, boost::function<void(double)>, uint16_t, int, int, std::string, std::string, std::string, std::string, std::string, bool)[m[K’
+[13.032s]    49 |   [01;36m[KPandarGeneralSDK[m[K(
+[13.032s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.032s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:49:3:[m[K [01;36m[Knote: [m[K  candidate expects 16 arguments, 12 provided
+[13.033s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(const PandarGeneralSDK&)[m[K’
+[13.033s]    35 | class [01;36m[KPandarGeneralSDK[m[K {
+[13.033s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.033s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 12 provided
+[13.036s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:184:111:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string&, int&, int&, boost::_bi::bind_t<void, boost::_mfi::mf3<void, hesai_lidar::HesaiLidarClient, boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double, std::shared_ptr<hesai_lidar::msg::PandarScan_<std::allocator<void> > > >, boost::_bi::list4<boost::_bi::value<hesai_lidar::HesaiLidarClient*>, boost::arg<1>, boost::arg<2>, boost::arg<3> > >, boost::_bi::bind_t<void, boost::_mfi::mf1<void, hesai_lidar::HesaiLidarClient, int>, boost::_bi::list2<boost::_bi::value<hesai_lidar::HesaiLidarClient*>, boost::arg<1> > >, int, int, int&, std::string&, std::string&, std::string&, std::string&, std::string&, bool&, std::string&, std::string&)[m[K’
+[13.037s]   184 |          m_sTimestampType, lidarCorrectionFile, multicastIp, coordinateCorrectionFlag, targetFrame, fixedFrame[01;31m[K)[m[K;
+[13.037s]       |                                                                                                               [01;31m[K^[m[K
+[13.037s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.037s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, uint16_t, int, int, std::string, std::string, std::string, bool)[m[K’
+[13.038s]    67 |   [01;36m[KPandarGeneralSDK[m[K(std::string pcap_path, \
+[13.038s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.038s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:67:3:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 16 provided
+[13.038s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:9[m[K:
+[13.038s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(std::string, uint16_t, uint16_t, uint16_t, boost::function<void(boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double)>, boost::function<void(HS_Object3D_Object_List*)>, boost::function<void(double)>, uint16_t, int, int, std::string, std::string, std::string, std::string, std::string, bool)[m[K’
+[13.039s]    49 |   [01;36m[KPandarGeneralSDK[m[K(
+[13.039s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.039s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:50:103:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kboost::_bi::bind_t<void, boost::_mfi::mf3<void, hesai_lidar::HesaiLidarClient, boost::shared_ptr<pcl::PointCloud<PointXYZIT> >, double, std::shared_ptr<hesai_lidar::msg::PandarScan_<std::allocator<void> > > >, boost::_bi::list4<boost::_bi::value<hesai_lidar::HesaiLidarClient*>, boost::arg<1>, boost::arg<2>, boost::arg<3> > >[m[K’ to ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’}
+[13.039s]    50 |       std::string device_ip, const uint16_t lidar_port, uint16_t lidar_algorithm_port, [01;36m[Kconst uint16_t gps_port[m[K,
+[13.039s]       |                                                                                        [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[13.040s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPandarGeneralSDK::PandarGeneralSDK(const PandarGeneralSDK&)[m[K’
+[13.040s]    35 | class [01;36m[KPandarGeneralSDK[m[K {
+[13.040s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.040s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/HesaiLidar_General_SDK/include/pandarGeneral_sdk/pandarGeneral_sdk.h:35:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 16 provided
+[20.867s] gmake[2]: *** [CMakeFiles/hesai_lidar_node.dir/build.make:76: CMakeFiles/hesai_lidar_node.dir/src/main_ros2.cc.o] Error 1
+[20.868s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/hesai_lidar_node.dir/all] Error 2
+[20.868s] gmake: *** [Makefile:146: all] Error 2
+[20.873s] Invoked command in '/external/build/hesai_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8

@@ -1,0 +1,29 @@
+{
+  "package_name": "unitree_go",
+  "non_idl_tuples": [
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/AudioData.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Error.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Go2FrontVideoData.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/HeightMap.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/IMUState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/InterfaceConfig.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LidarState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmds.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorStates.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/PathPoint.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Req.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Res.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeCmd.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/TimeSpec.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbState.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbSwitch.msg",
+    "/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/WirelessController.msg"
+  ]
+}

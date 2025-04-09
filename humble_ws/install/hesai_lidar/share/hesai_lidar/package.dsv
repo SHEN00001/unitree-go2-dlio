@@ -1,0 +1,11 @@
+source;share/hesai_lidar/hook/cmake_prefix_path.ps1
+source;share/hesai_lidar/hook/cmake_prefix_path.dsv
+source;share/hesai_lidar/hook/cmake_prefix_path.sh
+source;share/hesai_lidar/hook/ld_library_path_lib.ps1
+source;share/hesai_lidar/hook/ld_library_path_lib.dsv
+source;share/hesai_lidar/hook/ld_library_path_lib.sh
+source;share/hesai_lidar/local_setup.bash
+source;share/hesai_lidar/local_setup.dsv
+source;share/hesai_lidar/local_setup.ps1
+source;share/hesai_lidar/local_setup.sh
+source;share/hesai_lidar/local_setup.zsh

@@ -1,0 +1,1 @@
+/external/build/hesai_lidar/rosidl_generator_cpp/hesai_lidar/msg/rosidl_generator_cpp__visibility_control.hpp

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_publisher[0m
+[100%] Built target imu_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /external/install/go2_demo/lib/go2_demo/imu_publisher
+-- Symlinking: /external/install/go2_demo/share/ament_index/resource_index/package_run_dependencies/go2_demo
+-- Symlinking: /external/install/go2_demo/share/ament_index/resource_index/parent_prefix_path/go2_demo
+-- Symlinking: /external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.sh
+-- Symlinking: /external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /external/install/go2_demo/share/go2_demo/environment/path.sh
+-- Symlinking: /external/install/go2_demo/share/go2_demo/environment/path.dsv
+-- Symlinking: /external/install/go2_demo/share/go2_demo/local_setup.bash
+-- Symlinking: /external/install/go2_demo/share/go2_demo/local_setup.sh
+-- Symlinking: /external/install/go2_demo/share/go2_demo/local_setup.zsh
+-- Symlinking: /external/install/go2_demo/share/go2_demo/local_setup.dsv
+-- Symlinking: /external/install/go2_demo/share/go2_demo/package.dsv
+-- Symlinking: /external/install/go2_demo/share/ament_index/resource_index/packages/go2_demo
+-- Symlinking: /external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig.cmake
+-- Symlinking: /external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig-version.cmake
+-- Symlinking: /external/install/go2_demo/share/go2_demo/package.xml

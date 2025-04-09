@@ -1,0 +1,11 @@
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/BmsCmd.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/BmsState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/HandCmd.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/HandState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/IMUState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/LowCmd.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/LowState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/MainBoardState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/MotorCmd.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/MotorState.idl
+/external/build/unitree_hg/rosidl_adapter/unitree_hg:msg/PressSensorState.idl

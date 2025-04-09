@@ -1,0 +1,4 @@
+source;share/hesai_lidar/environment/ament_prefix_path.sh
+source;share/hesai_lidar/environment/library_path.sh
+source;share/hesai_lidar/environment/path.sh
+source;share/hesai_lidar/environment/pythonpath.sh

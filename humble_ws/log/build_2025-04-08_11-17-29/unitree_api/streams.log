@@ -1,0 +1,284 @@
+[0.047s] Invoking command in '/external/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_api -- -j8 -l8
+[0.119s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.387s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.400s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.573s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[1.133s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.126s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.172s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.172s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.172s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.266s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.296s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.300s] -- Added test 'lint_cmake' to check CMake code style
+[2.302s] -- Added test 'xmllint' to check XML markup files
+[2.309s] -- Configuring done
+[2.400s] -- Generating done
+[2.422s] -- Build files have been written to: /external/build/unitree_api
+[2.490s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_generator_c[0m
+[2.499s] [  1%] Built target unitree_api__dds_connext_idl
+[2.514s] [  2%] Built target unitree_api__cpp
+[2.522s] [ 13%] Built target unitree_api__rosidl_generator_c
+[2.529s] [ 13%] Built target ament_cmake_python_symlink_unitree_api
+[2.565s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_cpp[0m
+[2.566s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_introspection_c[0m
+[2.571s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_fastrtps_c[0m
+[2.574s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_fastrtps_cpp[0m
+[2.581s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_introspection_cpp[0m
+[2.594s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_c[0m
+[2.643s] [ 25%] Built target unitree_api__rosidl_typesupport_introspection_c
+[2.651s] [ 36%] Built target unitree_api__rosidl_typesupport_fastrtps_cpp
+[2.661s] [ 47%] Built target unitree_api__rosidl_typesupport_introspection_cpp
+[2.670s] [ 59%] Built target unitree_api__rosidl_typesupport_fastrtps_c
+[2.679s] [ 70%] Built target unitree_api__rosidl_typesupport_cpp
+[2.682s] [ 81%] Built target unitree_api__rosidl_typesupport_c
+[2.717s] [ 81%] Built target unitree_api
+[2.766s] [ 82%] Built target unitree_api__py
+[2.787s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_generator_py[0m
+[2.814s] [ 93%] Built target unitree_api__rosidl_generator_py
+[2.832s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_introspection_c__pyext[0m
+[2.849s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.861s] [35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_c__pyext[0m
+[2.881s] [ 95%] Built target unitree_api__rosidl_typesupport_introspection_c__pyext
+[2.903s] [ 97%] Built target unitree_api__rosidl_typesupport_c__pyext
+[2.922s] [100%] Built target unitree_api__rosidl_typesupport_fastrtps_c__pyext
+[3.152s] running egg_info
+[3.154s] writing unitree_api.egg-info/PKG-INFO
+[3.158s] writing dependency_links to unitree_api.egg-info/dependency_links.txt
+[3.158s] writing top-level names to unitree_api.egg-info/top_level.txt
+[3.161s] reading manifest file 'unitree_api.egg-info/SOURCES.txt'
+[3.162s] writing manifest file 'unitree_api.egg-info/SOURCES.txt'
+[3.250s] [100%] Built target ament_cmake_python_build_unitree_api_egg
+[3.270s] Invoked command in '/external/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_api -- -j8 -l8
+[3.273s] Invoking command in '/external/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_api
+[3.286s] -- Install configuration: ""
+[3.286s] -- Execute custom install script
+[3.287s] -- Up-to-date symlink: /external/install/unitree_api/share/ament_index/resource_index/rosidl_interfaces/unitree_api
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__functions.h
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.h
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.h
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__functions.h
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.h
+[3.288s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__functions.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__functions.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.h
+[3.289s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__functions.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__functions.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__struct.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__functions.h
+[3.290s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__struct.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__functions.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__struct.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request.h
+[3.291s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_header.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_identity.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_lease.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_policy.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response_header.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response_status.h
+[3.292s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_c__visibility_control.h
+[3.293s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/library_path.sh
+[3.293s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/library_path.dsv
+[3.294s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_fastrtps_c.h
+[3.294s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_fastrtps_c.h
+[3.294s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_fastrtps_c.h
+[3.294s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_fastrtps_c.h
+[3.294s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_fastrtps_c.h
+[3.295s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_fastrtps_c.h
+[3.295s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_fastrtps_c.h
+[3.295s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_fastrtps_c.h
+[3.295s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.296s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__builder.hpp
+[3.296s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__traits.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__builder.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__traits.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.hpp
+[3.297s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__builder.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__traits.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__builder.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__traits.hpp
+[3.298s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__builder.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__traits.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__builder.hpp
+[3.299s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__struct.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__traits.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__builder.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__struct.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__traits.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.hpp
+[3.300s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__builder.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__struct.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__traits.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_header.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_identity.hpp
+[3.301s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_lease.hpp
+[3.302s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/request_policy.hpp
+[3.302s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response.hpp
+[3.302s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response_header.hpp
+[3.302s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/response_status.hpp
+[3.302s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.303s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_fastrtps_cpp.hpp
+[3.303s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.304s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.305s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_introspection_c.h
+[3.305s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_introspection_c.h
+[3.305s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_introspection_c.h
+[3.306s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.307s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_introspection_cpp.hpp
+[3.307s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/pythonpath.sh
+[3.309s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/pythonpath.dsv
+[3.309s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/PKG-INFO
+[3.309s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.309s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.309s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/top_level.txt
+[3.311s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/__init__.py
+[3.311s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_c.c
+[3.311s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.311s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_introspection_c.c
+[3.311s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/libunitree_api__rosidl_generator_py.so
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/__init__.py
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request.py
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_header.py
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_header_s.c
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_identity.py
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_identity_s.c
+[3.312s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_lease.py
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_lease_s.c
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_policy.py
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_policy_s.c
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_s.c
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response.py
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_header.py
+[3.313s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_header_s.c
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_s.c
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_status.py
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_status_s.c
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.314s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.315s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.315s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.316s] -- Up-to-date symlink: /external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.316s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/Request.idl
+[3.316s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestHeader.idl
+[3.317s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestIdentity.idl
+[3.317s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestLease.idl
+[3.317s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestPolicy.idl
+[3.317s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/Response.idl
+[3.317s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/ResponseHeader.idl
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/ResponseStatus.idl
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/Request.msg
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestHeader.msg
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestIdentity.msg
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestLease.msg
+[3.318s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/RequestPolicy.msg
+[3.319s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/Response.msg
+[3.319s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/ResponseHeader.msg
+[3.319s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/ResponseStatus.msg
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/RequestHeader_.idl
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/RequestIdentity_.idl
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/RequestLease_.idl
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/RequestPolicy_.idl
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/Request_.idl
+[3.320s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/ResponseHeader_.idl
+[3.321s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/ResponseStatus_.idl
+[3.321s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/msg/dds_connext/Response_.idl
+[3.321s] -- Up-to-date symlink: /external/install/unitree_api/share/ament_index/resource_index/package_run_dependencies/unitree_api
+[3.321s] -- Up-to-date symlink: /external/install/unitree_api/share/ament_index/resource_index/parent_prefix_path/unitree_api
+[3.321s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/ament_prefix_path.sh
+[3.322s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/ament_prefix_path.dsv
+[3.322s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/path.sh
+[3.322s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/environment/path.dsv
+[3.322s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/local_setup.bash
+[3.322s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/local_setup.sh
+[3.323s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/local_setup.zsh
+[3.323s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/local_setup.dsv
+[3.323s] -- Symlinking: /external/install/unitree_api/share/unitree_api/package.dsv
+[3.339s] -- Up-to-date symlink: /external/install/unitree_api/share/ament_index/resource_index/packages/unitree_api
+[3.340s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/rosidl_cmake-extras.cmake
+[3.340s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.340s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.340s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_libraries-extras.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_targets-extras.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/unitree_apiConfig.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/cmake/unitree_apiConfig-version.cmake
+[3.341s] -- Up-to-date symlink: /external/install/unitree_api/share/unitree_api/package.xml
+[3.341s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
+[3.341s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
+[3.342s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
+[3.342s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
+[3.346s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
+[3.346s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
+[3.347s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
+[3.400s] Listing '/external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api'...
+[3.400s] Compiling '/external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/__init__.py'...
+[3.400s] Listing '/external/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg'...
+[3.414s] -- Up-to-date: /external/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
+[3.415s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake
+[3.415s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport-noconfig.cmake
+[3.415s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake
+[3.415s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport-noconfig.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake
+[3.416s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.417s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake
+[3.417s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport-noconfig.cmake
+[3.417s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake
+[3.417s] -- Up-to-date: /external/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport-noconfig.cmake
+[3.421s] Invoked command in '/external/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_api

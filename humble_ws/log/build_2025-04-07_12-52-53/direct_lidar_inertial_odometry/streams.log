@@ -1,0 +1,168 @@
+[0.029s] Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/direct_lidar_inertial_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/external/install/direct_lidar_inertial_odometry
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.544s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.547s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.817s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.181s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.283s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.289s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.458s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.506s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.605s] -- Looking for pthread.h
+[1.737s] -- Looking for pthread.h - found
+[1.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.869s] -- Found Threads: TRUE  
+[1.969s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.027s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.056s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.137s] -- Checking for module 'eigen3'
+[2.162s] --   Found eigen3, version 3.4.0
+[2.242s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.242s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.320s] -- Checking for module 'flann'
+[2.350s] --   Found flann, version 1.9.1
+[2.416s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.417s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.083s] -- Checking for module 'libusb-1.0'
+[5.134s] --   Found libusb-1.0, version 1.0.25
+[5.363s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.365s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.716s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.273s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.301s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.350s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.170s] -- Found Qhull version 8.0.2
+[8.134s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.202s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[9.220s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[9.230s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[9.246s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[9.258s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[9.269s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[9.275s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.279s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.289s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[9.306s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[9.324s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[9.336s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[9.351s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[9.365s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[9.384s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[9.400s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[9.415s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[9.430s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[9.443s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[9.459s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[9.464s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.470s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.474s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.490s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[9.507s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[9.825s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.843s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.845s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.176s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[14.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.619s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[16.623s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.882s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[16.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.882s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.882s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[17.175s] -- Found PythonExtra: .so  
+[18.891s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[19.343s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[19.343s] -- Found OpenMP: TRUE (found version "4.5")  
+[19.521s] -- Configuring done
+[19.883s] -- Generating done
+[20.034s] -- Build files have been written to: /external/build/direct_lidar_inertial_odometry
+[20.143s] Invoked command in '/external/build/direct_lidar_inertial_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/direct_lidar_inertial_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/external/install/direct_lidar_inertial_odometry
+[20.144s] Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/direct_lidar_inertial_odometry -- -j8 -l8
+[20.440s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.275s] [  2%] Built target direct_lidar_inertial_odometry__cpp
+[21.376s] [  4%] [32mBuilding CXX object CMakeFiles/nanoflann.dir/src/nano_gicp/nanoflann.cc.o[0m
+[32.817s] [  7%] [32m[1mLinking CXX static library libnanoflann.a[0m
+[32.878s] [  7%] Built target nanoflann
+[32.898s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.366s] [ 11%] [32mBuilding CXX object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/direct_lidar_inertial_odometry/srv/detail/save_pcd__type_support.cpp.o[0m
+[34.169s] [ 14%] [32m[1mLinking CXX shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp.so[0m
+[34.316s] [ 14%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp
+[34.354s] [ 16%] [32mBuilding CXX object CMakeFiles/nano_gicp.dir/src/nano_gicp/lsq_registration.cc.o[0m
+[65.419s] [ 19%] [32mBuilding CXX object CMakeFiles/nano_gicp.dir/src/nano_gicp/nano_gicp.cc.o[0m
+[84.466s] [ 21%] [32m[1mLinking CXX static library libnano_gicp.a[0m
+[84.540s] [ 21%] Built target nano_gicp
+[84.555s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[84.555s] [ 28%] [34m[1mGenerating C code for ROS interfaces[0m
+[84.556s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[84.572s] [ 30%] [32mBuilding CXX object CMakeFiles/dlio_odom_node.dir/src/dlio/odom_node.cc.o[0m
+[84.573s] [ 33%] [32mBuilding CXX object CMakeFiles/dlio_odom_node.dir/src/dlio/odom.cc.o[0m
+[84.588s] [ 33%] Built target ament_cmake_python_symlink_direct_lidar_inertial_odometry
+[84.969s] [ 35%] [32mBuilding CXX object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/direct_lidar_inertial_odometry/srv/save_pcd__type_support.cpp.o[0m
+[85.012s] [ 38%] [32mBuilding CXX object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/direct_lidar_inertial_odometry/srv/detail/dds_fastrtps/save_pcd__type_support.cpp.o[0m
+[85.018s] running egg_info
+[85.020s] creating direct_lidar_inertial_odometry.egg-info
+[85.020s] writing direct_lidar_inertial_odometry.egg-info/PKG-INFO
+[85.020s] writing dependency_links to direct_lidar_inertial_odometry.egg-info/dependency_links.txt
+[85.021s] writing top-level names to direct_lidar_inertial_odometry.egg-info/top_level.txt
+[85.021s] writing manifest file 'direct_lidar_inertial_odometry.egg-info/SOURCES.txt'
+[85.025s] reading manifest file 'direct_lidar_inertial_odometry.egg-info/SOURCES.txt'
+[85.026s] writing manifest file 'direct_lidar_inertial_odometry.egg-info/SOURCES.txt'
+[85.029s] [ 40%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_generator_c.dir/rosidl_generator_c/direct_lidar_inertial_odometry/srv/detail/save_pcd__functions.c.o[0m
+[85.099s] [ 40%] Built target ament_cmake_python_build_direct_lidar_inertial_odometry_egg
+[85.281s] [ 42%] [32m[1mLinking C shared library libdirect_lidar_inertial_odometry__rosidl_generator_c.so[0m
+[85.342s] [ 42%] Built target direct_lidar_inertial_odometry__rosidl_generator_c
+[85.360s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[85.360s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[85.360s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[85.530s] [ 52%] [32m[1mLinking CXX shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_cpp.so[0m
+[85.613s] [ 52%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_cpp
+[85.653s] [ 57%] [32mBuilding CXX object CMakeFiles/dlio_map_node.dir/src/dlio/map.cc.o[0m
+[85.653s] [ 57%] [32mBuilding CXX object CMakeFiles/dlio_map_node.dir/src/dlio/map_node.cc.o[0m
+[85.818s] [ 59%] [32mBuilding CXX object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_c.dir/rosidl_typesupport_c/direct_lidar_inertial_odometry/srv/save_pcd__type_support.cpp.o[0m
+[85.839s] [ 61%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/direct_lidar_inertial_odometry/srv/detail/save_pcd__type_support.c.o[0m
+[85.852s] [ 64%] [32mBuilding CXX object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/direct_lidar_inertial_odometry/srv/detail/save_pcd__type_support_c.cpp.o[0m
+[85.908s] [ 66%] [32m[1mLinking CXX shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_c.so[0m
+[85.935s] [ 69%] [32m[1mLinking CXX shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp.so[0m
+[85.946s] [ 71%] [32m[1mLinking C shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_introspection_c.so[0m
+[85.988s] [ 71%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_c
+[86.014s] [ 71%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c
+[86.115s] [ 71%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp
+[86.641s] [ 73%] [32m[1mLinking CXX shared library libdirect_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c.so[0m
+[86.774s] [ 73%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c
+[86.807s] [ 73%] Built target direct_lidar_inertial_odometry
+[86.841s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[87.419s] [ 76%] Built target direct_lidar_inertial_odometry__py
+[87.455s] [ 78%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_generator_py.dir/rosidl_generator_py/direct_lidar_inertial_odometry/srv/_save_pcd_s.c.o[0m
+[87.702s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/direct_lidar_inertial_odometry/libdirect_lidar_inertial_odometry__rosidl_generator_py.so[0m
+[87.764s] [ 80%] Built target direct_lidar_inertial_odometry__rosidl_generator_py
+[87.800s] [ 85%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/direct_lidar_inertial_odometry/_direct_lidar_inertial_odometry_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[87.800s] [ 85%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/direct_lidar_inertial_odometry/_direct_lidar_inertial_odometry_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[87.803s] [ 88%] [32mBuilding C object CMakeFiles/direct_lidar_inertial_odometry__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/direct_lidar_inertial_odometry/_direct_lidar_inertial_odometry_s.ep.rosidl_typesupport_c.c.o[0m
+[88.048s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[88.059s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[88.060s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[88.106s] [ 95%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_c__pyext
+[88.128s] [ 95%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c__pyext
+[88.128s] [ 95%] Built target direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c__pyext
+[123.223s] [ 97%] [32m[1mLinking CXX executable dlio_map_node[0m
+[124.276s] [ 97%] Built target dlio_map_node
+[201.103s] [100%] [32m[1mLinking CXX executable dlio_odom_node[0m
+[202.247s] [100%] Built target dlio_odom_node

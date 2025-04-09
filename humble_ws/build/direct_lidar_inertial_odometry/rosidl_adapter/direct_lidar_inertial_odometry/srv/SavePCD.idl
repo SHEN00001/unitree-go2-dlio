@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from direct_lidar_inertial_odometry/srv/SavePCD.srv
+// generated code does not contain a copyright notice
+
+
+module direct_lidar_inertial_odometry {
+  module srv {
+    struct SavePCD_Request {
+      float leaf_size;
+
+      string save_path;
+    };
+    struct SavePCD_Response {
+      boolean success;
+    };
+  };
+};

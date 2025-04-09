@@ -1,0 +1,4 @@
+Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds
+Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds

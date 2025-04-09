@@ -1,0 +1,46 @@
+[0.050s] Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_generator_c[0m
+[0.196s] [  2%] Built target hesai_lidar__cpp
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_cpp[0m
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_introspection_cpp[0m
+[0.260s] [  2%] Built target ament_cmake_python_symlink_hesai_lidar
+[0.260s] [ 12%] Built target hesai_lidar__rosidl_generator_c
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar__rosidl_typesupport_fastrtps_cpp[0m
+[0.288s] [ 21%] Built target hesai_lidar__rosidl_typesupport_cpp
+[0.332s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.347s] [ 34%] Built target hesai_lidar__rosidl_typesupport_introspection_cpp
+[0.352s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.396s] [35m[1mConsolidate compiler generated dependencies of target hesai_lidar_node[0m
+[0.398s] [ 46%] Built target hesai_lidar__rosidl_typesupport_fastrtps_cpp
+[0.408s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.564s] [ 51%] [32m[1mLinking CXX executable hesai_lidar_node[0m
+[1.174s] [ 53%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hesai_lidar/msg/detail/pandar_packet__type_support_c.cpp.o[0m
+[1.186s] [ 56%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hesai_lidar/msg/detail/pandar_scan__type_support_c.cpp.o[0m
+[1.267s] [ 58%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_c.dir/rosidl_typesupport_c/hesai_lidar/msg/pandar_packet__type_support.cpp.o[0m
+[1.270s] [ 60%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_c.dir/rosidl_typesupport_c/hesai_lidar/msg/pandar_scan__type_support.cpp.o[0m
+[1.387s] [ 63%] [32m[1mLinking CXX shared library libhesai_lidar__rosidl_typesupport_c.so[0m
+[1.404s] [ 65%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hesai_lidar/msg/detail/pandar_scan__type_support.c.o[0m
+[1.419s] [ 68%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hesai_lidar/msg/detail/pandar_packet__type_support.c.o[0m
+[1.440s] /usr/bin/ld: cannot find -lPandarGeneral: No such file or directory
+[1.441s] /usr/bin/ld: cannot find -lPandarGeneralSDK: No such file or directory
+[1.543s] running egg_info
+[1.544s] writing hesai_lidar.egg-info/PKG-INFO
+[1.544s] writing dependency_links to hesai_lidar.egg-info/dependency_links.txt
+[1.544s] writing top-level names to hesai_lidar.egg-info/top_level.txt
+[1.551s] reading manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[1.552s] writing manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[1.566s] [ 68%] Built target hesai_lidar__rosidl_typesupport_c
+[1.599s] [ 70%] [32m[1mLinking C shared library libhesai_lidar__rosidl_typesupport_introspection_c.so[0m
+[1.684s] [ 70%] Built target ament_cmake_python_build_hesai_lidar_egg
+[1.723s] [ 70%] Built target hesai_lidar__rosidl_typesupport_introspection_c
+[2.106s] [ 73%] [32m[1mLinking CXX shared library libhesai_lidar__rosidl_typesupport_fastrtps_c.so[0m
+[2.368s] [ 73%] Built target hesai_lidar__rosidl_typesupport_fastrtps_c
+[2.666s] [ 73%] Built target hesai_lidar
+[2.821s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.945s] collect2: error: ld returned 1 exit status
+[2.949s] gmake[2]: *** [CMakeFiles/hesai_lidar_node.dir/build.make:373: hesai_lidar_node] Error 1
+[2.950s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/hesai_lidar_node.dir/all] Error 2
+[2.950s] gmake[1]: *** Waiting for unfinished jobs....
+[4.106s] [ 75%] Built target hesai_lidar__py
+[4.111s] gmake: *** [Makefile:146: all] Error 2
+[4.122s] Invoked command in '/external/build/hesai_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8

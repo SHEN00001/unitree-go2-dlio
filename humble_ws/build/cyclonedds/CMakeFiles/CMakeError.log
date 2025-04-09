@@ -1,0 +1,80 @@
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9341/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9341.dir/build.make CMakeFiles/cmTC_e9341.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9341.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_e9341.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+    8 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e9341.dir/build.make:78: CMakeFiles/cmTC_e9341.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e9341/fast] Error 2
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a959d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a959d.dir/build.make CMakeFiles/cmTC_a959d.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a959d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_a959d.dir/CheckSymbolExists.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+    8 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_a959d.dir/build.make:78: CMakeFiles/cmTC_a959d.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a959d/fast] Error 2
+
+
+File /external/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY failed with the following output:
+Change Dir: /external/build/cyclonedds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8d8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8d8d.dir/build.make CMakeFiles/cmTC_c8d8d.dir/build
+gmake[1]: Entering directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8d8d.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -o CMakeFiles/cmTC_c8d8d.dir/src.c.o -c /external/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+Linking C executable cmTC_c8d8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d8d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c8d8d.dir/src.c.o -o cmTC_c8d8d 
+gmake[1]: Leaving directory '/external/build/cyclonedds/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

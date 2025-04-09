@@ -1,0 +1,16 @@
+/external/install/go2_demo/lib/go2_demo/imu_publisher
+/external/install/go2_demo/share/ament_index/resource_index/package_run_dependencies/go2_demo
+/external/install/go2_demo/share/ament_index/resource_index/parent_prefix_path/go2_demo
+/external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.sh
+/external/install/go2_demo/share/go2_demo/environment/ament_prefix_path.dsv
+/external/install/go2_demo/share/go2_demo/environment/path.sh
+/external/install/go2_demo/share/go2_demo/environment/path.dsv
+/external/install/go2_demo/share/go2_demo/local_setup.bash
+/external/install/go2_demo/share/go2_demo/local_setup.sh
+/external/install/go2_demo/share/go2_demo/local_setup.zsh
+/external/install/go2_demo/share/go2_demo/local_setup.dsv
+/external/install/go2_demo/share/go2_demo/package.dsv
+/external/install/go2_demo/share/ament_index/resource_index/packages/go2_demo
+/external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig.cmake
+/external/install/go2_demo/share/go2_demo/cmake/go2_demoConfig-version.cmake
+/external/install/go2_demo/share/go2_demo/package.xml

@@ -1,0 +1,1 @@
+/external/build/direct_lidar_inertial_odometry/ament_cmake_python/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry.egg-info/top_level.txt

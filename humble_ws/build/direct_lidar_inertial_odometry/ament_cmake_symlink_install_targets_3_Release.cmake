@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/external/build/direct_lidar_inertial_odometry/dlio_odom_node" "/external/build/direct_lidar_inertial_odometry/dlio_map_node" "TARGETS" "dlio_odom_node" "dlio_map_node" "DESTINATION" "lib/direct_lidar_inertial_odometry")

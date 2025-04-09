@@ -1,0 +1,1 @@
+/external/build/hesai_lidar/rosidl_generator_cpp/hesai_lidar/msg/detail/pandar_scan__type_support.hpp

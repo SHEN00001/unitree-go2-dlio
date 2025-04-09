@@ -1,0 +1,6 @@
+{
+  "package_name": "direct_lidar_inertial_odometry",
+  "non_idl_tuples": [
+    "/external/src/direct_lidar_inertial_odometry:srv/SavePCD.srv"
+  ]
+}

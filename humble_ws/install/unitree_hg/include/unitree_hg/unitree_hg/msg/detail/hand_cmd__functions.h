@@ -1,0 +1,1 @@
+/external/build/unitree_hg/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.h

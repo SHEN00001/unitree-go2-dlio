@@ -1,0 +1,302 @@
+[0.035s] Invoking command in '/external/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_hg -- -j8 -l8
+[0.254s] [  0%] Built target unitree_hg__cpp
+[0.292s] [ 12%] Built target unitree_hg__rosidl_generator_c
+[0.317s] [ 12%] Built target ament_cmake_python_symlink_unitree_hg
+[0.340s] [ 13%] Built target unitree_hg__dds_connext_idl
+[0.401s] [ 25%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[0.425s] [ 37%] Built target unitree_hg__rosidl_typesupport_cpp
+[0.434s] [ 49%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[0.444s] [ 60%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[0.453s] [ 71%] Built target unitree_hg__rosidl_typesupport_c
+[0.455s] [ 82%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[0.570s] [ 82%] Built target unitree_hg
+[0.721s] [ 83%] Built target unitree_hg__py
+[0.868s] [ 94%] Built target unitree_hg__rosidl_generator_py
+[1.007s] [ 96%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[1.031s] [ 98%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[1.033s] running egg_info
+[1.037s] [100%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[1.038s] writing unitree_hg.egg-info/PKG-INFO
+[1.038s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[1.039s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[1.045s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[1.049s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[1.155s] [100%] Built target ament_cmake_python_build_unitree_hg_egg
+[1.179s] Invoked command in '/external/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_hg -- -j8 -l8
+[1.181s] Invoking command in '/external/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_hg
+[1.215s] -- Install configuration: ""
+[1.215s] -- Execute custom install script
+[1.216s] -- Up-to-date symlink: /external/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[1.218s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[1.218s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[1.219s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[1.219s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[1.228s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[1.228s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[1.228s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[1.228s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[1.229s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[1.229s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[1.230s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[1.230s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[1.230s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[1.231s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[1.231s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[1.232s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[1.232s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[1.232s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[1.232s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[1.232s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[1.233s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[1.234s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[1.234s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[1.234s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[1.234s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[1.237s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[1.237s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[1.237s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[1.237s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[1.238s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[1.238s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[1.238s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[1.238s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[1.238s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[1.239s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[1.239s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[1.239s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[1.239s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[1.241s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[1.242s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[1.242s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[1.243s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[1.243s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[1.244s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[1.245s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[1.245s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[1.246s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[1.246s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.249s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[1.250s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[1.250s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[1.251s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[1.251s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[1.251s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[1.251s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[1.252s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[1.253s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[1.257s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[1.257s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[1.257s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[1.257s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[1.257s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[1.258s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[1.258s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[1.258s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[1.258s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[1.259s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[1.259s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[1.260s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[1.260s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[1.260s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[1.260s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[1.261s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[1.261s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[1.261s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[1.261s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[1.261s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[1.262s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[1.268s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[1.269s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[1.269s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[1.269s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[1.269s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[1.270s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[1.270s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[1.270s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[1.271s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[1.272s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.273s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[1.273s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.273s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[1.287s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.287s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.288s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[1.288s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.288s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.289s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[1.290s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.290s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.291s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.292s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[1.292s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[1.292s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[1.293s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[1.293s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[1.293s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[1.295s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[1.297s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[1.297s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.299s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[1.299s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[1.300s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[1.300s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[1.300s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[1.300s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[1.300s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[1.301s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[1.301s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[1.301s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[1.301s] -- Up-to-date symlink: /external/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[1.302s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[1.302s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[1.303s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.303s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.303s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.303s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[1.305s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[1.307s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[1.307s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[1.308s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[1.309s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[1.310s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[1.310s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[1.310s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[1.311s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[1.311s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[1.311s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[1.311s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[1.311s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[1.313s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[1.313s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[1.313s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[1.313s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[1.314s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[1.316s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[1.316s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[1.317s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[1.317s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[1.319s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.319s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.321s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.322s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.325s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.326s] -- Up-to-date symlink: /external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.334s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[1.342s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[1.344s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[1.345s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[1.345s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[1.350s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[1.353s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[1.353s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[1.354s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[1.355s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[1.355s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[1.357s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[1.363s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[1.363s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[1.364s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[1.364s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[1.365s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[1.365s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[1.365s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[1.365s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[1.366s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[1.366s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[1.366s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[1.367s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[1.368s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[1.368s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[1.368s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[1.370s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[1.371s] -- Up-to-date symlink: /external/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[1.372s] -- Up-to-date symlink: /external/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[1.372s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[1.376s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/path.sh
+[1.379s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[1.382s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/local_setup.bash
+[1.384s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/local_setup.sh
+[1.385s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[1.392s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[1.392s] -- Symlinking: /external/install/unitree_hg/share/unitree_hg/package.dsv
+[1.442s] -- Up-to-date symlink: /external/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[1.451s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[1.451s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.452s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.453s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.460s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[1.460s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.460s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.460s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[1.460s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[1.461s] -- Up-to-date symlink: /external/install/unitree_hg/share/unitree_hg/package.xml
+[1.461s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[1.461s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[1.461s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[1.461s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[1.462s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[1.462s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[1.462s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[1.506s] Listing '/external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[1.507s] Listing '/external/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[1.511s] -- Up-to-date: /external/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[1.511s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[1.511s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[1.511s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.511s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.512s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[1.513s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[1.513s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[1.514s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.514s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[1.514s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.515s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[1.516s] -- Up-to-date: /external/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[1.519s] Invoked command in '/external/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_hg

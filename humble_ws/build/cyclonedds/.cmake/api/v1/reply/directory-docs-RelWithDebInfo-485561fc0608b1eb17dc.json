@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"docs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/CycloneDDS",
+			"paths" : 
+			[
+				"docs/../CONTRIBUTING.md",
+				"docs/../CYCLONEDDS_QUALITY_DECLARATION.md",
+				"docs/../LICENSE",
+				"docs/../NOTICE.md",
+				"docs/../README.md",
+				"docs/../CHANGELOG.rst"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "docs",
+		"source" : "docs"
+	}
+}

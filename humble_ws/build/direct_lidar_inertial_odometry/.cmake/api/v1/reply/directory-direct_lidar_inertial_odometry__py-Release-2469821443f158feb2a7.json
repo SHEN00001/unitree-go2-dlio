@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "direct_lidar_inertial_odometry__py",
+		"source" : "/external/build/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry__py"
+	}
+}

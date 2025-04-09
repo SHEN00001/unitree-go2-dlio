@@ -1,0 +1,711 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.196s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8889f8b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff889f8c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff889f8c70>>)
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.500s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/external'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/HesaiLidar_ROS2_techshare) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/HesaiLidar_ROS2_techshare' with type 'ros.ament_cmake' and name 'hesai_lidar'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ros'
+[0.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/direct_lidar_inertial_odometry' with type 'ros.ament_cmake' and name 'direct_lidar_inertial_odometry'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_unitree_ros2) by extension 'ros'
+[0.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_unitree_ros2' with type 'ros.ament_cmake' and name 'go2_demo'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python_setup_py'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) ignored
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2' with type 'ros.cmake' and name 'cyclonedds'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ros'
+[0.551s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ros'
+[0.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/example/src' with type 'ros.ament_cmake' and name 'unitree_ros2_example'
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.595s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2' from colcon.pkg: {'cmake-args': ['-DBUILD_IDLC=AUTO']}
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.604s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 402 installed packages in /opt/ros/humble
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:overwrite package 'cyclonedds' build argument 'cmake_args' from package metadata with '['-DBUILD_IDLC=AUTO']' (before: 'None')
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'cmake_force_configure' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'ament_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'cyclonedds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.728s] DEBUG:colcon.colcon_core.verb:Building package 'cyclonedds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/cyclonedds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_IDLC=AUTO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/cyclonedds', 'merge_install': False, 'path': '/external/src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2', 'symlink_install': True, 'test_result_base': None}
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'direct_lidar_inertial_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.730s] DEBUG:colcon.colcon_core.verb:Building package 'direct_lidar_inertial_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/direct_lidar_inertial_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/direct_lidar_inertial_odometry', 'merge_install': False, 'path': '/external/src/direct_lidar_inertial_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_target' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'hesai_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.731s] DEBUG:colcon.colcon_core.verb:Building package 'hesai_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/hesai_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/hesai_lidar', 'merge_install': False, 'path': '/external/src/HesaiLidar_ROS2_techshare', 'symlink_install': True, 'test_result_base': None}
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.732s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/unitree_api', 'merge_install': False, 'path': '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', 'symlink_install': True, 'test_result_base': None}
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.733s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/unitree_go', 'merge_install': False, 'path': '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', 'symlink_install': True, 'test_result_base': None}
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_first' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_hg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/unitree_hg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/unitree_hg', 'merge_install': False, 'path': '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', 'symlink_install': True, 'test_result_base': None}
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'go2_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'go2_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/go2_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/go2_demo', 'merge_install': False, 'path': '/external/src/go2_unitree_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ros2_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/external/build/unitree_ros2_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/external/install/unitree_ros2_example', 'merge_install': False, 'path': '/external/src/unitree_ros2/example/src', 'symlink_install': True, 'test_result_base': None}
+[0.736s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.739s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with build type 'ament_cmake'
+[0.739s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api'
+[0.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.750s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with build type 'ament_cmake'
+[0.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/external/src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2' with build type 'cmake'
+[0.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/unitree_ros2/cyclonedds_ws/src/cyclonedds-0.10.2'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/direct_lidar_inertial_odometry' with build type 'ament_cmake'
+[0.771s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/direct_lidar_inertial_odometry'
+[0.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/HesaiLidar_ROS2_techshare' with build type 'ament_cmake'
+[0.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/HesaiLidar_ROS2_techshare'
+[0.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_api -- -j8 -l8
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_go -- -j8 -l8
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_hg -- -j8 -l8
+[0.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/direct_lidar_inertial_odometry -- -j8 -l8
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+[1.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/cyclonedds -- -j8 -l8
+[1.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/cyclonedds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds
+[1.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path')
+[1.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path.sh'
+[1.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pkg_config_path_multiarch')
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.dsv'
+[1.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pkg_config_path_multiarch.sh'
+[1.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyclonedds)
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds' for CMake module files
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds' for CMake config files
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'cmake_prefix_path')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.dsv'
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/cyclonedds
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/cmake_prefix_path.sh'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds/lib'
+[1.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'ld_library_path_lib')
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/ld_library_path_lib.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds/bin'
+[1.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'path')
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/path.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/path.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/path.sh'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds/lib/pkgconfig/cyclonedds.pc'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds/lib/python3.10/site-packages'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/external/install/cyclonedds/bin'
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyclonedds', 'pythonscriptspath')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/cyclonedds/share/cyclonedds/hook/pythonscriptspath.sh'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/cyclonedds/share/cyclonedds/package.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/cyclonedds/share/cyclonedds/package.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/cyclonedds/share/cyclonedds/package.sh'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/cyclonedds/share/cyclonedds/package.bash'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/cyclonedds/share/cyclonedds/package.zsh'
+[1.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/cyclonedds/share/colcon-core/packages/cyclonedds)
+[1.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_hg -- -j8 -l8
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_hg
+[1.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_go -- -j8 -l8
+[1.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_go
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_api -- -j8 -l8
+[1.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_api
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/hesai_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/hesai_lidar
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/direct_lidar_inertial_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/direct_lidar_inertial_odometry -- -j8 -l8
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/direct_lidar_inertial_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/direct_lidar_inertial_odometry
+[2.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg' for CMake module files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg' for CMake config files
+[2.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib'
+[2.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/bin'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib/python3.10/site-packages'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/bin'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.ps1'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_hg/share/unitree_hg/package.dsv'
+[2.054s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.sh'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.bash'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.zsh'
+[2.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[2.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg' for CMake module files
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib'
+[2.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/lib/python3.10/site-packages'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_hg/bin'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_hg/share/unitree_hg/package.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.sh'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.bash'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_hg/share/unitree_hg/package.zsh'
+[2.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[2.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(direct_lidar_inertial_odometry)
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry' for CMake module files
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry' for CMake config files
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_lidar_inertial_odometry', 'cmake_prefix_path')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.sh'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib'
+[2.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_lidar_inertial_odometry', 'ld_library_path_lib')
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/bin'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib/pkgconfig/direct_lidar_inertial_odometry.pc'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib/python3.10/site-packages'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/bin'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.ps1'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.dsv'
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.sh'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.bash'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/direct_lidar_inertial_odometry/share/colcon-core/packages/direct_lidar_inertial_odometry)
+[2.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(direct_lidar_inertial_odometry)
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry' for CMake module files
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry' for CMake config files
+[2.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_lidar_inertial_odometry', 'cmake_prefix_path')
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.ps1'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.dsv'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/cmake_prefix_path.sh'
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib'
+[2.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_lidar_inertial_odometry', 'ld_library_path_lib')
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.dsv'
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_hg
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/hook/ld_library_path_lib.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/bin'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib/pkgconfig/direct_lidar_inertial_odometry.pc'
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/lib/python3.10/site-packages'
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/external/install/direct_lidar_inertial_odometry/bin'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.dsv'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.sh'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.bash'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/direct_lidar_inertial_odometry/share/direct_lidar_inertial_odometry/package.zsh'
+[2.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/direct_lidar_inertial_odometry/share/colcon-core/packages/direct_lidar_inertial_odometry)
+[2.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api' for CMake module files
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api' for CMake config files
+[2.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[2.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/direct_lidar_inertial_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/direct_lidar_inertial_odometry
+[2.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[2.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_api
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib'
+[2.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[2.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/bin'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib/python3.10/site-packages'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/bin'
+[2.162s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_api/share/unitree_api/package.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.sh'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.bash'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.zsh'
+[2.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_api/share/colcon-core/packages/unitree_api)
+[2.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api' for CMake module files
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api' for CMake config files
+[2.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib'
+[2.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/bin'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/lib/python3.10/site-packages'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_api/bin'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_api/share/unitree_api/package.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.bash'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_api/share/unitree_api/package.zsh'
+[2.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_api/share/colcon-core/packages/unitree_api)
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hesai_lidar)
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar' for CMake module files
+[2.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/hesai_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/hesai_lidar
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar' for CMake config files
+[2.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('hesai_lidar', 'cmake_prefix_path')
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.ps1'
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib'
+[2.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('hesai_lidar', 'ld_library_path_lib')
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.dsv'
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.sh'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/bin'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib/pkgconfig/hesai_lidar.pc'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib/python3.10/site-packages'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/bin'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/hesai_lidar/share/hesai_lidar/package.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.bash'
+[2.192s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.zsh'
+[2.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/hesai_lidar/share/colcon-core/packages/hesai_lidar)
+[2.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hesai_lidar)
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar' for CMake module files
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar' for CMake config files
+[2.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('hesai_lidar', 'cmake_prefix_path')
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.ps1'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/cmake_prefix_path.sh'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib'
+[2.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('hesai_lidar', 'ld_library_path_lib')
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.ps1'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.dsv'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/hesai_lidar/share/hesai_lidar/hook/ld_library_path_lib.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/bin'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib/pkgconfig/hesai_lidar.pc'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/lib/python3.10/site-packages'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/external/install/hesai_lidar/bin'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.ps1'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/hesai_lidar/share/hesai_lidar/package.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.bash'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/hesai_lidar/share/hesai_lidar/package.zsh'
+[2.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/hesai_lidar/share/colcon-core/packages/hesai_lidar)
+[2.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go' for CMake module files
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_go
+[2.214s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go' for CMake config files
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib'
+[2.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib/python3.10/site-packages'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/bin'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.ps1'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_go/share/unitree_go/package.dsv'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.sh'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.bash'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.zsh'
+[2.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_go/share/colcon-core/packages/unitree_go)
+[2.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go' for CMake module files
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go' for CMake config files
+[2.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib'
+[2.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[2.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/bin'
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/lib/python3.10/site-packages'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_go/bin'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_go/share/unitree_go/package.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.sh'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.bash'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_go/share/unitree_go/package.zsh'
+[2.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_go/share/colcon-core/packages/unitree_go)
+[2.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/go2_unitree_ros2' with build type 'ament_cmake'
+[2.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/go2_unitree_ros2'
+[2.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/external/src/unitree_ros2/example/src' with build type 'ament_cmake'
+[2.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/external/src/unitree_ros2/example/src'
+[2.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/go2_demo': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/go2_demo -- -j8 -l8
+[2.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_ros2_example': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/unitree_ros2_example -- -j8 -l8
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/go2_demo' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/go2_demo -- -j8 -l8
+[2.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/go2_demo': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/go2_demo
+[2.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_demo)
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo' for CMake module files
+[2.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/go2_demo' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/go2_demo
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo' for CMake config files
+[2.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_demo', 'cmake_prefix_path')
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.sh'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/bin'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib/pkgconfig/go2_demo.pc'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib/python3.10/site-packages'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/bin'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.ps1'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/go2_demo/share/go2_demo/package.dsv'
+[2.448s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.sh'
+[2.449s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.bash'
+[2.450s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.zsh'
+[2.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/go2_demo/share/colcon-core/packages/go2_demo)
+[2.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_demo)
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo' for CMake module files
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo' for CMake config files
+[2.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_demo', 'cmake_prefix_path')
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.ps1'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/go2_demo/share/go2_demo/hook/cmake_prefix_path.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/bin'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib/pkgconfig/go2_demo.pc'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/lib/python3.10/site-packages'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/external/install/go2_demo/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/go2_demo/share/go2_demo/package.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.bash'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/go2_demo/share/go2_demo/package.zsh'
+[2.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/go2_demo/share/colcon-core/packages/go2_demo)
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /external/build/unitree_ros2_example -- -j8 -l8
+[2.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/external/build/unitree_ros2_example': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/unitree_ros2_example
+[2.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros2_example)
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example' for CMake module files
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/external/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/external/install/unitree_hg:/external/install/unitree_go:/external/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/external/install/unitree_hg/lib:/external/install/unitree_go/lib:/external/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/external/install/unitree_hg/local/lib/python3.10/dist-packages:/external/install/unitree_go/local/lib/python3.10/dist-packages:/external/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /external/build/unitree_ros2_example
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example' for CMake config files
+[2.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'cmake_prefix_path')
+[2.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.ps1'
+[2.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.dsv'
+[2.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.sh'
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/bin'
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/lib/pkgconfig/unitree_ros2_example.pc'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/lib/python3.10/site-packages'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/bin'
+[2.515s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv'
+[2.517s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.sh'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.bash'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.zsh'
+[2.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_ros2_example/share/colcon-core/packages/unitree_ros2_example)
+[2.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros2_example)
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example' for CMake module files
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example' for CMake config files
+[2.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'cmake_prefix_path')
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/external/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.sh'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/bin'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/lib/pkgconfig/unitree_ros2_example.pc'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/lib/python3.10/site-packages'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/external/install/unitree_ros2_example/bin'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.ps1'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.sh'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.bash'
+[2.529s] INFO:colcon.colcon_core.shell:Creating package script '/external/install/unitree_ros2_example/share/unitree_ros2_example/package.zsh'
+[2.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/external/install/unitree_ros2_example/share/colcon-core/packages/unitree_ros2_example)
+[2.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.531s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.541s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.546s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.546s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/external/install/local_setup.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating prefix util module '/external/install/_local_setup_util_ps1.py'
+[2.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/external/install/setup.ps1'
+[2.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/external/install/local_setup.sh'
+[2.556s] INFO:colcon.colcon_core.shell:Creating prefix util module '/external/install/_local_setup_util_sh.py'
+[2.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/external/install/setup.sh'
+[2.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/external/install/local_setup.bash'
+[2.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/external/install/setup.bash'
+[2.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/external/install/local_setup.zsh'
+[2.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/external/install/setup.zsh'

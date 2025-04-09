@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnanoflann.a CMakeFiles/nanoflann.dir/src/nano_gicp/nanoflann.cc.o
+/usr/bin/ranlib libnanoflann.a

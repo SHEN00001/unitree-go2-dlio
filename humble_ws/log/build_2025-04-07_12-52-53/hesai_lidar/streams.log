@@ -1,0 +1,179 @@
+[0.052s] Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/HesaiLidar_ROS2_techshare -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/external/install/hesai_lidar
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.405s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.845s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system 
+[0.850s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.122s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.398s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.409s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.426s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.566s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.736s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.786s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.886s] -- Found Threads: TRUE  
+[2.101s] -- Checking for module 'eigen3'
+[2.131s] --   Found eigen3, version 3.4.0
+[2.199s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.199s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.274s] -- Checking for module 'flann'
+[2.307s] --   Found flann, version 1.9.1
+[2.380s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.381s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.063s] -- Checking for module 'libusb-1.0'
+[5.114s] --   Found libusb-1.0, version 1.0.25
+[5.342s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.345s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.657s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.521s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.557s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.580s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.151s] -- Found Qhull version 8.0.2
+[7.702s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.335s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[8.339s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[8.343s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[8.353s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[8.357s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[8.370s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[8.372s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[8.374s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[8.382s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[8.393s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[8.397s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[8.402s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[8.405s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[8.407s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[8.410s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[8.411s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[8.414s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[8.415s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[8.418s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[8.420s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[8.423s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[8.423s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[8.424s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[8.429s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[8.429s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[8.440s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.563s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.773s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.857s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[9.022s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[9.053s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.271s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.405s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.409s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.409s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.411s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[9.411s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.412s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.412s]   command to set the policy and suppress this warning.
+[9.412s] 
+[9.412s]   CMake variable PCL_ROOT is set to:
+[9.412s] 
+[9.412s]     /usr
+[9.412s] 
+[9.412s]   For compatibility, CMake is ignoring the variable.
+[9.412s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.412s] [0m
+[11.664s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.169s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[15.182s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[15.326s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.327s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.327s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.327s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[15.617s] -- Found PythonExtra: .so  
+[15.988s] -- Configuring for ARM architecture
+[16.176s] -- Configuring done
+[16.571s] -- Generating done
+[16.678s] -- Build files have been written to: /external/build/hesai_lidar
+[16.873s] Invoked command in '/external/build/hesai_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /external/src/HesaiLidar_ROS2_techshare -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/external/install/hesai_lidar
+[16.874s] Invoking command in '/external/build/hesai_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8
+[17.109s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.214s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.268s] [  4%] Built target ament_cmake_python_symlink_hesai_lidar
+[18.266s] running egg_info
+[18.268s] creating hesai_lidar.egg-info
+[18.268s] writing hesai_lidar.egg-info/PKG-INFO
+[18.269s] writing dependency_links to hesai_lidar.egg-info/dependency_links.txt
+[18.274s] writing top-level names to hesai_lidar.egg-info/top_level.txt
+[18.276s] writing manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[18.290s] reading manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[18.291s] writing manifest file 'hesai_lidar.egg-info/SOURCES.txt'
+[18.450s] [  4%] Built target ament_cmake_python_build_hesai_lidar_egg
+[18.539s] [  4%] Built target hesai_lidar__cpp
+[18.637s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.660s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.674s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.248s] [ 14%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_generator_c.dir/rosidl_generator_c/hesai_lidar/msg/detail/pandar_packet__functions.c.o[0m
+[19.491s] [ 17%] [32mBuilding C object CMakeFiles/hesai_lidar__rosidl_generator_c.dir/rosidl_generator_c/hesai_lidar/msg/detail/pandar_scan__functions.c.o[0m
+[19.737s] [ 19%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hesai_lidar/msg/pandar_packet__type_support.cpp.o[0m
+[19.771s] [ 21%] [32m[1mLinking C shared library libhesai_lidar__rosidl_generator_c.so[0m
+[19.869s] [ 24%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hesai_lidar/msg/detail/dds_fastrtps/pandar_packet__type_support.cpp.o[0m
+[19.970s] [ 24%] Built target hesai_lidar__rosidl_generator_c
+[20.236s] [ 26%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hesai_lidar/msg/detail/pandar_packet__type_support.cpp.o[0m
+[20.933s] [ 29%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hesai_lidar/msg/pandar_scan__type_support.cpp.o[0m
+[21.098s] [ 31%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hesai_lidar/msg/detail/dds_fastrtps/pandar_scan__type_support.cpp.o[0m
+[21.434s] [ 34%] [32mBuilding CXX object CMakeFiles/hesai_lidar__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hesai_lidar/msg/detail/pandar_scan__type_support.cpp.o[0m
+[21.593s] [ 36%] [32m[1mLinking CXX shared library libhesai_lidar__rosidl_typesupport_cpp.so[0m
+[21.746s] [ 36%] Built target hesai_lidar__rosidl_typesupport_cpp
+[22.283s] [ 39%] [32m[1mLinking CXX shared library libhesai_lidar__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.489s] [ 39%] Built target hesai_lidar__rosidl_typesupport_fastrtps_cpp
+[22.574s] [ 41%] [32m[1mLinking CXX shared library libhesai_lidar__rosidl_typesupport_introspection_cpp.so[0m
+[22.853s] [ 41%] Built target hesai_lidar__rosidl_typesupport_introspection_cpp
+[23.005s] [ 43%] [32mBuilding CXX object CMakeFiles/hesai_lidar_node.dir/src/main_ros2.cc.o[0m
+[26.606s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:8[m[K:
+[26.606s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[26.606s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[26.606s]       |  [01;35m[K^~~~~~~[m[K
+[33.406s] In file included from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:5[m[K:
+[33.407s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[33.407s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[33.407s]       |                                                                                         [01;36m[K^[m[K
+[38.472s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[38.473s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[38.474s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[38.474s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[38.474s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[38.474s]                  from [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:6[m[K:
+[38.474s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[38.474s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[38.474s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[38.990s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:[m[K In member function ‘[01m[Kvoid hesai_lidar::HesaiLidarClient::gpsCallback(int)[m[K’:
+[38.990s] [01m[K/external/src/HesaiLidar_ROS2_techshare/src/main_ros2.cc:94:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[38.990s]    94 |   void gpsCallback([01;35m[Kint timestamp[m[K) {
+[38.990s]       |                    [01;35m[K~~~~^~~~~~~~~[m[K
+[59.671s] [ 46%] [32m[1mLinking CXX executable hesai_lidar_node[0m
+[60.068s] /usr/bin/ld: cannot find -lPandarGeneral: No such file or directory
+[60.068s] /usr/bin/ld: cannot find -lPandarGeneralSDK: No such file or directory
+[61.245s] collect2: error: ld returned 1 exit status
+[61.248s] gmake[2]: *** [CMakeFiles/hesai_lidar_node.dir/build.make:373: hesai_lidar_node] Error 1
+[61.249s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/hesai_lidar_node.dir/all] Error 2
+[61.249s] gmake: *** [Makefile:146: all] Error 2
+[61.254s] Invoked command in '/external/build/hesai_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/hesai_lidar -- -j8 -l8

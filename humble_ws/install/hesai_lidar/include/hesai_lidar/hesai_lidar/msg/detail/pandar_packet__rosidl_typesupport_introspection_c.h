@@ -1,0 +1,1 @@
+/external/build/hesai_lidar/rosidl_typesupport_introspection_c/hesai_lidar/msg/detail/pandar_packet__rosidl_typesupport_introspection_c.h

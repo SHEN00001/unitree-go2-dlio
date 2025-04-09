@@ -1,0 +1,40 @@
+common:
+  default_window: dlio
+
+parameters:
+  source: ../install/setup.bash
+  unitree_ros2: unitree_ros2/setup.sh
+  rviz_cfg: direct_lidar_inertial_odometry/launch/dlio.rviz
+
+windows:    
+  - commands:
+      - source ${source}
+      - source ${unitree_ros2}
+      - ros2 run go2_demo imu_publisher
+    name: imu_publisher
+  
+  - commands:
+      - source ${source}
+      - source ${unitree_ros2}
+      - ros2 launch hesai_lidar hesai_lidar_launch.py  
+    name: hesai_lidar_node 
+
+  - commands:
+      - source ${source}
+      - source ${unitree_ros2}
+      - ros2 launch direct_lidar_inertial_odometry dlio.launch.py 
+    name: dlio
+
+  # - commands:
+  #     - source ${source}
+  #     - source ${unitree_ros2}
+  #     - ros2 launch point_cloud_processor point_cloud_processor_launch.py
+  #   name: point_cloud_processor
+
+  # - commands:
+  #     - source ${source}
+  #     - source ${unitree_ros2}
+  #     - rviz2 -d ${rviz_cfg}
+  #   name: rviz2
+
+

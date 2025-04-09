@@ -1,0 +1,7 @@
+/usr/bin/ld: cannot find -lPandarGeneral: No such file or directory
+/usr/bin/ld: cannot find -lPandarGeneralSDK: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/hesai_lidar_node.dir/build.make:373: hesai_lidar_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/hesai_lidar_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

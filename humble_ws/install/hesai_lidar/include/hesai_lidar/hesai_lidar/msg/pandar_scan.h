@@ -1,0 +1,1 @@
+/external/build/hesai_lidar/rosidl_generator_c/hesai_lidar/msg/pandar_scan.h

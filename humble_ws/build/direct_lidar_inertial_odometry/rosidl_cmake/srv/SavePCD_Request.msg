@@ -1,0 +1,2 @@
+float32 leaf_size
+string save_path

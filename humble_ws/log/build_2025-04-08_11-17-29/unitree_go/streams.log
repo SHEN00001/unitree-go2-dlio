@@ -1,0 +1,572 @@
+[0.046s] Invoking command in '/external/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_go -- -j8 -l8
+[0.108s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.388s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.435s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.439s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.562s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[1.263s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.959s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.260s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.300s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.301s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.301s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.403s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.422s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.427s] -- Added test 'lint_cmake' to check CMake code style
+[2.430s] -- Added test 'xmllint' to check XML markup files
+[2.436s] -- Configuring done
+[2.624s] -- Generating done
+[2.657s] -- Build files have been written to: /external/build/unitree_go
+[2.732s] [  0%] Built target unitree_go__dds_connext_idl
+[2.732s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_generator_c[0m
+[2.762s] [ 12%] Built target unitree_go__rosidl_generator_c
+[2.765s] [ 12%] Built target unitree_go__cpp
+[2.779s] [ 12%] Built target ament_cmake_python_symlink_unitree_go
+[2.802s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_c[0m
+[2.811s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_cpp[0m
+[2.827s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_fastrtps_c[0m
+[2.830s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_introspection_c[0m
+[2.837s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_introspection_cpp[0m
+[2.862s] [ 24%] Built target unitree_go__rosidl_typesupport_c
+[2.881s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_fastrtps_cpp[0m
+[2.904s] [ 36%] Built target unitree_go__rosidl_typesupport_introspection_c
+[2.918s] [ 49%] Built target unitree_go__rosidl_typesupport_introspection_cpp
+[2.919s] [ 61%] Built target unitree_go__rosidl_typesupport_fastrtps_c
+[2.945s] [ 75%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp
+[2.946s] [ 87%] Built target unitree_go__rosidl_typesupport_cpp
+[2.978s] [ 87%] Built target unitree_go
+[3.014s] [ 88%] Built target unitree_go__py
+[3.046s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_generator_py[0m
+[3.090s] [100%] Built target unitree_go__rosidl_generator_py
+[3.108s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_c__pyext[0m
+[3.109s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_introspection_c__pyext[0m
+[3.109s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.135s] [100%] Built target unitree_go__rosidl_typesupport_c__pyext
+[3.135s] [100%] Built target unitree_go__rosidl_typesupport_fastrtps_c__pyext
+[3.137s] [100%] Built target unitree_go__rosidl_typesupport_introspection_c__pyext
+[3.343s] running egg_info
+[3.344s] writing unitree_go.egg-info/PKG-INFO
+[3.344s] writing dependency_links to unitree_go.egg-info/dependency_links.txt
+[3.345s] writing top-level names to unitree_go.egg-info/top_level.txt
+[3.349s] reading manifest file 'unitree_go.egg-info/SOURCES.txt'
+[3.351s] writing manifest file 'unitree_go.egg-info/SOURCES.txt'
+[3.430s] [100%] Built target ament_cmake_python_build_unitree_go_egg
+[3.461s] Invoked command in '/external/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /external/build/unitree_go -- -j8 -l8
+[3.465s] Invoking command in '/external/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_go
+[3.478s] -- Install configuration: ""
+[3.479s] -- Execute custom install script
+[3.479s] -- Up-to-date symlink: /external/install/unitree_go/share/ament_index/resource_index/rosidl_interfaces/unitree_go
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.h
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.h
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.h
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__functions.h
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.h
+[3.482s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__functions.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__functions.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__functions.h
+[3.483s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__functions.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__functions.h
+[3.484s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__functions.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__functions.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.h
+[3.485s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__functions.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__functions.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.h
+[3.486s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__functions.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__functions.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__functions.h
+[3.487s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.h
+[3.488s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.h
+[3.488s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__functions.h
+[3.499s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.h
+[3.499s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.h
+[3.499s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__functions.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__functions.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__functions.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.h
+[3.500s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__functions.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__functions.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.h
+[3.501s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__functions.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__functions.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__functions.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.h
+[3.502s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__functions.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__functions.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/error.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.h
+[3.503s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/req.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/res.h
+[3.504s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_c__visibility_control.h
+[3.505s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.h
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/library_path.sh
+[3.506s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/library_path.dsv
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[3.507s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[3.508s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_c.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.509s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__builder.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__traits.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__builder.hpp
+[3.510s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__traits.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__builder.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__traits.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.hpp
+[3.511s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__builder.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__traits.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__builder.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__builder.hpp
+[3.512s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__traits.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__builder.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__traits.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__builder.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.hpp
+[3.513s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__traits.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__builder.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__traits.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__builder.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__traits.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.hpp
+[3.514s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__builder.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__traits.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__builder.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__traits.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__builder.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.hpp
+[3.515s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__traits.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__builder.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__traits.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__builder.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__traits.hpp
+[3.516s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__builder.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__traits.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__builder.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__traits.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__builder.hpp
+[3.517s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__traits.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__builder.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__builder.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__traits.hpp
+[3.518s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__builder.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__traits.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__builder.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__traits.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.hpp
+[3.519s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__builder.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__traits.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__builder.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__traits.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/error.hpp
+[3.520s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.hpp
+[3.521s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/req.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/res.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.hpp
+[3.522s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.hpp
+[3.524s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.525s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_cpp.hpp
+[3.526s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.528s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_c.h
+[3.529s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[3.530s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_c.h
+[3.531s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_c.h
+[3.532s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_c.h
+[3.532s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_c.h
+[3.532s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.533s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[3.533s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[3.533s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[3.533s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[3.534s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_cpp.hpp
+[3.535s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_cpp.hpp
+[3.536s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_cpp.hpp
+[3.537s] -- Up-to-date symlink: /external/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.537s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/pythonpath.sh
+[3.537s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/pythonpath.dsv
+[3.537s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/PKG-INFO
+[3.537s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.538s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.538s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/top_level.txt
+[3.540s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/__init__.py
+[3.540s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_c.c
+[3.540s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.540s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_introspection_c.c
+[3.540s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/libunitree_go__rosidl_generator_py.so
+[3.541s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/__init__.py
+[3.541s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data.py
+[3.541s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data_s.c
+[3.541s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd.py
+[3.541s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd_s.c
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state.py
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state_s.c
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error.py
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error_s.c
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data.py
+[3.542s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data_s.c
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map.py
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map_s.c
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state.py
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state_s.c
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config.py
+[3.543s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config_s.c
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state.py
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state_s.c
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd.py
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd_s.c
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state.py
+[3.544s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state_s.c
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd.py
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd_s.c
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds.py
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds_s.c
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state.py
+[3.545s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state_s.c
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states.py
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states_s.c
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point.py
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point_s.c
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req.py
+[3.546s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req_s.c
+[3.547s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res.py
+[3.547s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res_s.c
+[3.547s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd.py
+[3.547s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd_s.c
+[3.547s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state.py
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state_s.c
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec.py
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec_s.c
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state.py
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state_s.c
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch.py
+[3.548s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch_s.c
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller.py
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller_s.c
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.549s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.550s] -- Up-to-date symlink: /external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.550s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/AudioData.idl
+[3.550s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/BmsCmd.idl
+[3.550s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/BmsState.idl
+[3.550s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Error.idl
+[3.551s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.idl
+[3.551s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/HeightMap.idl
+[3.551s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/IMUState.idl
+[3.551s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/InterfaceConfig.idl
+[3.551s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LidarState.idl
+[3.552s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LowCmd.idl
+[3.552s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LowState.idl
+[3.552s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorCmd.idl
+[3.552s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorCmds.idl
+[3.552s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorState.idl
+[3.553s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorStates.idl
+[3.553s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/PathPoint.idl
+[3.553s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Req.idl
+[3.553s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Res.idl
+[3.553s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/SportModeCmd.idl
+[3.554s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/SportModeState.idl
+[3.554s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/TimeSpec.idl
+[3.554s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/UwbState.idl
+[3.554s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/UwbSwitch.idl
+[3.554s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/WirelessController.idl
+[3.555s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/AudioData.msg
+[3.555s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/BmsCmd.msg
+[3.555s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/BmsState.msg
+[3.555s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Error.msg
+[3.556s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.msg
+[3.556s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/HeightMap.msg
+[3.556s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/IMUState.msg
+[3.556s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/InterfaceConfig.msg
+[3.557s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LidarState.msg
+[3.557s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LowCmd.msg
+[3.557s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/LowState.msg
+[3.557s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorCmd.msg
+[3.558s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorCmds.msg
+[3.558s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorState.msg
+[3.558s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/MotorStates.msg
+[3.558s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/PathPoint.msg
+[3.558s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Req.msg
+[3.559s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/Res.msg
+[3.559s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/SportModeCmd.msg
+[3.559s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/SportModeState.msg
+[3.559s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/TimeSpec.msg
+[3.559s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/UwbState.msg
+[3.560s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/UwbSwitch.msg
+[3.560s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/WirelessController.msg
+[3.561s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/AudioData_.idl
+[3.561s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/BmsCmd_.idl
+[3.561s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/BmsState_.idl
+[3.561s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/Error_.idl
+[3.561s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/Go2FrontVideoData_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/HeightMap_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/IMUState_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/InterfaceConfig_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/LidarState_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/LowCmd_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/LowState_.idl
+[3.562s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmd_.idl
+[3.563s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmds_.idl
+[3.563s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/MotorState_.idl
+[3.563s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/MotorStates_.idl
+[3.563s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/PathPoint_.idl
+[3.564s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/Req_.idl
+[3.564s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/Res_.idl
+[3.565s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeCmd_.idl
+[3.565s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeState_.idl
+[3.565s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/TimeSpec_.idl
+[3.565s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/UwbState_.idl
+[3.565s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/UwbSwitch_.idl
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/msg/dds_connext/WirelessController_.idl
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/ament_index/resource_index/package_run_dependencies/unitree_go
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/ament_index/resource_index/parent_prefix_path/unitree_go
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/ament_prefix_path.sh
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/ament_prefix_path.dsv
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/path.sh
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/environment/path.dsv
+[3.566s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/local_setup.bash
+[3.567s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/local_setup.sh
+[3.567s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/local_setup.zsh
+[3.567s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/local_setup.dsv
+[3.567s] -- Symlinking: /external/install/unitree_go/share/unitree_go/package.dsv
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/ament_index/resource_index/packages/unitree_go
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/rosidl_cmake-extras.cmake
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_libraries-extras.cmake
+[3.584s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_targets-extras.cmake
+[3.585s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.585s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.585s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/unitree_goConfig.cmake
+[3.585s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/cmake/unitree_goConfig-version.cmake
+[3.585s] -- Up-to-date symlink: /external/install/unitree_go/share/unitree_go/package.xml
+[3.586s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+[3.586s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+[3.587s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+[3.587s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+[3.587s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+[3.587s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+[3.588s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+[3.646s] Listing '/external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go'...
+[3.646s] Compiling '/external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/__init__.py'...
+[3.646s] Listing '/external/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg'...
+[3.657s] -- Up-to-date: /external/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
+[3.657s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport.cmake
+[3.657s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport-noconfig.cmake
+[3.657s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport.cmake
+[3.657s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cppExport.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport-noconfig.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport.cmake
+[3.658s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.659s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport.cmake
+[3.659s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport-noconfig.cmake
+[3.659s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport.cmake
+[3.659s] -- Up-to-date: /external/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport-noconfig.cmake
+[3.664s] Invoked command in '/external/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /external/build/unitree_go

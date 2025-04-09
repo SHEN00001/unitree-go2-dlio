@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hesai_lidar/msg/PandarScan.msg
+// generated code does not contain a copyright notice
+
+#include "hesai_lidar/msg/PandarPacket.idl"
+
+module hesai_lidar {
+  module msg {
+    struct PandarScan {
+      sequence<hesai_lidar::msg::PandarPacket> packets;
+    };
+  };
+};

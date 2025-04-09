@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a0e0f004c2185b21dd50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "direct_lidar_inertial_odometry__py",
+					"jsonFile" : "directory-direct_lidar_inertial_odometry__py-Release-2469821443f158feb2a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/external/build/direct_lidar_inertial_odometry/direct_lidar_inertial_odometry__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "direct_lidar_inertial_odometry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_direct_lidar_inertial_odometry_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_direct_lidar_inertial_odometry_egg-Release-e52090a74e39e858df67.json",
+					"name" : "ament_cmake_python_build_direct_lidar_inertial_odometry_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_direct_lidar_inertial_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_direct_lidar_inertial_odometry-Release-8f68066ca0528106b6bc.json",
+					"name" : "ament_cmake_python_symlink_direct_lidar_inertial_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry-Release-3387bc8857d4181f38d1.json",
+					"name" : "direct_lidar_inertial_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__cpp-Release-d8684276683cfa9577e1.json",
+					"name" : "direct_lidar_inertial_odometry__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "direct_lidar_inertial_odometry__py::@1bed995f33bcbcb096e2",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__py-Release-bca0a76db752efb49b0c.json",
+					"name" : "direct_lidar_inertial_odometry__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_generator_c-Release-8edd2f560484fb595569.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_generator_py-Release-d78dc1de58f1cf6886b4.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_c-Release-4c42871238a5e2d65a87.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_c__pyext-Release-68806fd1a8a0ba1602af.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_cpp-Release-003a6bbb356249042748.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c-Release-e057590293fbe7417a85.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c__pyext-Release-9b6195346ac09b67a9bb.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp-Release-d0e858df0ff04fcf2d93.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c-Release-e70d83e538611b18104c.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c__pyext-Release-c1e4c50b52484927a394.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp-Release-bc76c3e41f3489032663.json",
+					"name" : "direct_lidar_inertial_odometry__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "direct_lidar_inertial_odometry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-direct_lidar_inertial_odometry_uninstall-Release-4e5ff192763d7466f66f.json",
+					"name" : "direct_lidar_inertial_odometry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dlio_map_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dlio_map_node-Release-3ffb2a54f851a2994de1.json",
+					"name" : "dlio_map_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dlio_odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dlio_odom_node-Release-29dc536efc1450da1898.json",
+					"name" : "dlio_odom_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nano_gicp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nano_gicp-Release-da44a2e2bfca60738b37.json",
+					"name" : "nano_gicp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nanoflann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nanoflann-Release-1cbe6eca26da8ee576af.json",
+					"name" : "nanoflann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7d6522a76d9683512711.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/external/build/direct_lidar_inertial_odometry",
+		"source" : "/external/src/direct_lidar_inertial_odometry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
